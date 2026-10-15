@@ -6,6 +6,7 @@ import config
 LINKS = {k: os.environ.get(k) or getattr(config, k) for k in
          ["SQUARE_LINK_FEATURED", "SQUARE_LINK_BANNER", "SQUARE_LINK_EMAIL", "CONTACT_EMAIL", "SUBSCRIBE_FORM_ACTION"]}
 SUB_URL = "https://americankx.com/page/#!/Intel-Individual/p/464053610"
+SUB_MONTHLY_URL = os.environ.get("SUB_MONTHLY_URL") or getattr(config, "SUB_MONTHLY_URL")
 BRIEF = "The Early Bird™ Intelligence Brief"
 OUT = "dist"
 e = html.escape
@@ -31,7 +32,8 @@ nav a{margin-left:16px;font-size:.95rem;opacity:.9}nav a:hover{opacity:1;text-de
 .free{background:#e3f6e8;color:#1b6b34}.paid{background:#fdeee3;color:#8a4b12}.card p{margin:0;font-size:.92rem}.feat{border:2px solid #d9a400}
 footer{background:#0f1c2e;color:#aab6c5;font-size:.85rem;padding:24px 0;margin-top:20px}footer a{color:#dfe7f0}
 .page{background:#fff;border:1px solid #e1e6ec;border-radius:10px;padding:24px;margin:24px 0}.price{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px}
-.price div{border:1px solid #e1e6ec;border-radius:10px;padding:18px}.price b{font-size:1.6rem;display:block}.btn{display:inline-block;background:#0b5cad;color:#fff!important;padding:10px 18px;border-radius:8px;text-decoration:none;margin-top:10px}
+.price div{border:1px solid #e1e6ec;border-radius:10px;padding:18px}.price b{font-size:1.6rem;display:block}
+.plans .best{border:2px solid #f2b544;position:relative}.plans .tag{position:absolute;top:-11px;left:14px;background:#f2b544;color:#0f1c2e;font-size:.75rem;font-weight:700;padding:2px 8px;border-radius:10px}.plans .btn{margin-top:12px}.plans .note{display:block;font-size:.8rem;color:#5a6676;margin-top:8px}.btn{display:inline-block;background:#0b5cad;color:#fff!important;padding:10px 18px;border-radius:8px;text-decoration:none;margin-top:10px}
 .cta{background:#0f1c2e;color:#fff;border-radius:10px;padding:18px;margin:18px 0}.cta a{color:#ffd65a}#count{font-size:.85rem;color:#5a6676}
 input,textarea,select{width:100%;padding:10px;border:1px solid #c9d2dc;border-radius:6px;margin:4px 0 12px;font:inherit}
 @media(max-width:640px){nav a{margin:0 12px 0 0}.hero h1{font-size:1.45rem}}"""
@@ -44,7 +46,7 @@ def layout(title, desc, path, body):
 <meta property="og:image" content="{SITE_URL}/og.png"><meta name="twitter:card" content="summary_large_image">
 <link rel="icon" href="/favicon.ico" sizes="any"><link rel="icon" type="image/png" href="/logo-64.png"><link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <link rel="stylesheet" href="/style.css"></head><body>
-<div class="promo"><a href="{SUB_URL}" target="_blank" rel="noopener"><span class="l">{e(BRIEF)} — weekday intel, in your inbox before sunrise. <b>Subscribe →</b></span><span class="s">{e(BRIEF)} · <b>Subscribe</b></span></a></div>
+<div class="promo"><a href="/subscribe/"><span class="l">{e(BRIEF)} — weekday intel, in your inbox before sunrise. <b>Subscribe →</b></span><span class="s">{e(BRIEF)} · <b>Subscribe</b></span></a></div>
 <header><div class="w" style="max-width:1100px;margin:0 auto"><a class="brand" href="/" aria-label="{e(SITE_NAME)} home"><img src="/logo-64.png" srcset="/logo-64.png 1x, /logo-128.png 2x" width="44" height="44" alt="American Kinetix logo"><span>{e(SITE_NAME)}<small>An AX Global resource</small></span></a>
 <nav><a href="/">Directory</a><a href="/submit/">Submit a Tool</a><a href="/advertise/">Advertise</a><a href="/subscribe/">Subscribe</a></nav></div></header>
 {body}
@@ -103,10 +105,11 @@ write("submit", layout(f"Submit a Tool | {SITE_NAME}", "Suggest an OSINT, threat
 SIGNUP = (f'<form action="{L["SUBSCRIBE_FORM_ACTION"]}" method="post"><input type="email" name="email" placeholder="Your email address" required><button class="btn" type="submit">Join the weekly email</button></form>' if L["SUBSCRIBE_FORM_ACTION"] else f'<a class="btn" href="mailto:{L["CONTACT_EMAIL"]}?subject=Subscribe%20to%20the%20weekly%20new-tools%20email">Join the weekly email</a>')
 subs = f"""<main class="w"><div class="page"><h1>{e(BRIEF)}</h1>
 <p>A concise daily intelligence brief for people who need to know what happened overnight: security, threats and world events, delivered before your day starts.</p>
-<div class="price"><div><h3>Annual subscription</h3><b>$107.50/yr</b>Delivered every morning by email.<br><a class="btn" href="{SUB_URL}" target="_blank" rel="noopener">Subscribe to {e(BRIEF)}</a></div></div>
+<div class="price plans"><div class="best"><span class="tag">Best value</span><h3>Annual</h3><b>$107.50/yr</b>Delivered every weekday morning by email.<br>Save about $42.50 vs. monthly ($150/yr).<br><a class="btn" href="{SUB_URL}" target="_blank" rel="noopener">Subscribe annually</a></div>
+<div><h3>Monthly</h3><b>$12.50/mo</b>Delivered every weekday morning by email.<br>Cancel anytime.<br><a class="btn" href="{SUB_MONTHLY_URL}" target="_blank" rel="noopener">Subscribe monthly</a><small class="note">At checkout, choose 'Subscription' for automatic monthly billing.</small></div></div>
 <h2>Free weekly new-tools email</h2><p>Get the tools we added this week.</p>
 {SIGNUP}</div></main>"""
-write("subscribe", layout(f"Subscribe: {BRIEF} | {SITE_NAME}", f"Subscribe to {BRIEF}, a daily intelligence brief, for $107.50 per year.", "subscribe/", subs))
+write("subscribe", layout(f"Subscribe: {BRIEF} | {SITE_NAME}", f"Subscribe to {BRIEF}, a daily intelligence brief, for $107.50 per year or $12.50 per month.", "subscribe/", subs))
 urls = ["", "advertise/", "submit/", "subscribe/"] + [f"category/{slug(c)}/" for c in cats]
 write("sitemap.xml", '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">' + "".join(f"<url><loc>{SITE_URL}/{u}</loc><lastmod>{today}</lastmod></url>" for u in urls) + "</urlset>\n")
 write("robots.txt", f"User-agent: *\nAllow: /\nSitemap: {SITE_URL}/sitemap.xml\n")

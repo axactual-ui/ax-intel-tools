@@ -4,3 +4,4 @@ SQUARE_LINK_FEATURED = "https://square.link/u/07m6l9mD"  # Featured Listing $49/
 SQUARE_LINK_BANNER = "https://square.link/u/EK11QDcY"    # Top Banner Sponsor $199/mo
 SQUARE_LINK_EMAIL = "https://square.link/u/41f27mlm"     # Weekly Email Mention $99 one-time
 SUBSCRIBE_FORM_ACTION = ""  # newsletter signup endpoint; empty = email signup via CONTACT_EMAIL
+SUB_MONTHLY_URL = "https://square.link/u/WIqYf0JK"  # Early Bird monthly $12.50/mo
