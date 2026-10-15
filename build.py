@@ -19,7 +19,7 @@ today = datetime.date.today().isoformat()
 
 CSS = """*{box-sizing:border-box}body{margin:0;font:16px/1.55 system-ui,-apple-system,Segoe UI,Roboto,sans-serif;color:#1c2430;background:#f5f7fa}
 a{color:#0b5cad}header{background:#0f1c2e;color:#fff}header .w{display:flex;flex-wrap:wrap;gap:12px;align-items:center;justify-content:space-between;padding:14px 18px}
-header a{color:#fff;text-decoration:none}.brand{font-weight:700;font-size:1.15rem}.brand small{display:block;font-weight:400;font-size:.75rem;opacity:.7}
+header a{color:#fff;text-decoration:none}.brand{font-weight:700;font-size:1.15rem;display:flex;align-items:center;gap:10px}.brand img{width:44px;height:44px;flex:none}.brand small{display:block;font-weight:400;font-size:.75rem;opacity:.7}
 nav a{margin-left:16px;font-size:.95rem;opacity:.9}nav a:hover{opacity:1;text-decoration:underline}.w{max-width:1100px;margin:0 auto;padding:0 18px}
 .hero{background:linear-gradient(135deg,#0f1c2e,#1d3b5f);color:#fff;padding:36px 0 30px}.hero h1{margin:0 0 8px;font-size:1.9rem}.hero p{margin:0;opacity:.85}
 .banner{background:#fff8e1;border:1px dashed #d9a400;padding:12px;border-radius:8px;margin:18px 0;text-align:center;font-size:.9rem}
@@ -41,8 +41,10 @@ def layout(title, desc, path, body):
     return f"""<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{e(title)}</title><meta name="description" content="{e(desc)}"><link rel="canonical" href="{canon}">
 <meta property="og:title" content="{e(title)}"><meta property="og:description" content="{e(desc)}"><meta property="og:type" content="website">
+<meta property="og:image" content="{SITE_URL}/og.png"><meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="/favicon.ico" sizes="any"><link rel="icon" type="image/png" href="/logo-64.png"><link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <link rel="stylesheet" href="/style.css"></head><body>
-<header><div class="w" style="max-width:1100px;margin:0 auto"><a class="brand" href="/">{e(SITE_NAME)}<small>An AX Global resource</small></a>
+<header><div class="w" style="max-width:1100px;margin:0 auto"><a class="brand" href="/" aria-label="{e(SITE_NAME)} home"><img src="/logo-64.png" srcset="/logo-64.png 1x, /logo-128.png 2x" width="44" height="44" alt="American Kinetix logo"><span>{e(SITE_NAME)}<small>An AX Global resource</small></span></a>
 <nav><a href="/">Directory</a><a href="/submit/">Submit a Tool</a><a href="/advertise/">Advertise</a><a href="/subscribe/">Subscribe</a></nav></div></header>
 {body}
 <footer><div class="w">© {datetime.date.today().year} AX Global · {e(SITE_NAME)} · Listings are editorial; inclusion is not endorsement. Featured listings are marked.
@@ -67,6 +69,7 @@ def write(path, content):
     os.makedirs(os.path.dirname(fp), exist_ok=True); open(fp, "w").write(content)
 
 shutil.rmtree(OUT, ignore_errors=True); os.makedirs(OUT)
+for _f in ("logo-64.png","logo-128.png","favicon.ico","apple-touch-icon.png","og.png","icon-512.png"): shutil.copy(os.path.join(os.path.dirname(os.path.abspath(__file__)),"assets",_f), os.path.join(OUT,_f))
 write("style.css", CSS)
 chips = '<button class="chip on" data-cat="">All</button>' + "".join(f'<button class="chip" data-cat="{e(c)}">{e(c)}</button>' for c in cats)
 home = (f'<section class="hero"><div class="w"><h1>The OSINT & Threat-Intel Tool Directory</h1><p>{len(tools)} vetted tools for open-source intelligence, threat intel, OPSEC and security training, each with a practitioner note.</p></div></section>'
