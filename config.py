@@ -5,3 +5,6 @@ SQUARE_LINK_BANNER = "https://square.link/u/EK11QDcY"    # Top Banner Sponsor $1
 SQUARE_LINK_EMAIL = "https://square.link/u/41f27mlm"     # Weekly Email Mention $99 one-time
 SUBSCRIBE_FORM_ACTION = ""  # newsletter signup endpoint; empty = email signup via CONTACT_EMAIL
 SUB_MONTHLY_URL = "https://square.link/u/WIqYf0JK"  # Early Bird monthly $12.50/mo
+
+# Visitor analytics: Vercel Web Analytics (free Hobby, 50k events/mo). View at vercel.com → project → Analytics.
+# No site code needed; script is injected by build.py.

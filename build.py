@@ -51,7 +51,9 @@ def layout(title, desc, path, body):
 <nav><a href="/">Directory</a><a href="/submit/">Submit a Tool</a><a href="/advertise/">Advertise</a><a href="/subscribe/">Subscribe</a></nav></div></header>
 {body}
 <footer><div class="w">© {datetime.date.today().year} AX Global · {e(SITE_NAME)} · Listings are editorial; inclusion is not endorsement. Featured listings are marked.
-· <a href="/advertise/">Advertise</a> · <a href="/subscribe/">{e(BRIEF)}</a></div></footer></body></html>"""
+· <a href="/advertise/">Advertise</a> · <a href="/subscribe/">{e(BRIEF)}</a></div></footer>
+<script>window.va=window.va||function(){{(window.vaq=window.vaq||[]).push(arguments)}};</script>
+<script defer src="/_vercel/insights/script.js"></script></body></html>"""
 
 def card(t):
     p = t["pricing"].lower()
