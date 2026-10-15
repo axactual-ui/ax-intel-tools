@@ -1,0 +1,1423 @@
+[
+ {
+  "name": "Maltego",
+  "url": "https://www.maltego.com",
+  "category": "Link Analysis",
+  "pricing": "Paid",
+  "note": "Graph-based link analysis platform for mapping relationships between people, domains and infrastructure. Free Community edition available."
+ },
+ {
+  "name": "SpiderFoot",
+  "url": "https://github.com/smicallef/spiderfoot",
+  "category": "Recon & Footprinting",
+  "pricing": "Free",
+  "note": "Automated OSINT scanner with 200+ modules for footprinting domains, IPs and names. The open-source version runs locally."
+ },
+ {
+  "name": "theHarvester",
+  "url": "https://github.com/laramies/theHarvester",
+  "category": "Recon & Footprinting",
+  "pricing": "Free",
+  "note": "Classic command-line tool for gathering emails, subdomains and hosts from public sources during early recon."
+ },
+ {
+  "name": "Recon-ng",
+  "url": "https://github.com/lanmaster53/recon-ng",
+  "category": "Recon & Footprinting",
+  "pricing": "Free",
+  "note": "Modular recon framework with a Metasploit-style console; good for repeatable, scripted investigations."
+ },
+ {
+  "name": "Amass",
+  "url": "https://github.com/owasp-amass/amass",
+  "category": "Recon & Footprinting",
+  "pricing": "Free",
+  "note": "OWASP project for in-depth attack surface mapping and subdomain enumeration."
+ },
+ {
+  "name": "Subfinder",
+  "url": "https://github.com/projectdiscovery/subfinder",
+  "category": "Recon & Footprinting",
+  "pricing": "Free",
+  "note": "Fast passive subdomain discovery tool that pulls from dozens of public sources."
+ },
+ {
+  "name": "Shodan",
+  "url": "https://www.shodan.io",
+  "category": "Infrastructure & Network",
+  "pricing": "Paid",
+  "note": "Search engine for internet-connected devices; essential for exposure checks and infrastructure pivots."
+ },
+ {
+  "name": "Censys",
+  "url": "https://search.censys.io",
+  "category": "Infrastructure & Network",
+  "pricing": "Paid",
+  "note": "Internet-wide scan data for hosts and certificates, with a usable free search tier."
+ },
+ {
+  "name": "ZoomEye",
+  "url": "https://www.zoomeye.ai",
+  "category": "Infrastructure & Network",
+  "pricing": "Paid",
+  "note": "Cyberspace search engine similar to Shodan, with strong coverage of Asian infrastructure."
+ },
+ {
+  "name": "FOFA",
+  "url": "https://en.fofa.info",
+  "category": "Infrastructure & Network",
+  "pricing": "Paid",
+  "note": "Asset search engine useful for fingerprinting services and finding related infrastructure."
+ },
+ {
+  "name": "GreyNoise",
+  "url": "https://www.greynoise.io",
+  "category": "Threat Intelligence",
+  "pricing": "Paid",
+  "note": "Tells you which IPs are mass-scanning the internet so you can separate background noise from targeted activity."
+ },
+ {
+  "name": "crt.sh",
+  "url": "https://crt.sh",
+  "category": "Infrastructure & Network",
+  "pricing": "Free",
+  "note": "Certificate Transparency log search; a quick way to find subdomains and newly issued certs."
+ },
+ {
+  "name": "DNSDumpster",
+  "url": "https://dnsdumpster.com",
+  "category": "Infrastructure & Network",
+  "pricing": "Free",
+  "note": "Free domain research tool that maps DNS records and hosts visually."
+ },
+ {
+  "name": "SecurityTrails",
+  "url": "https://securitytrails.com",
+  "category": "Infrastructure & Network",
+  "pricing": "Paid",
+  "note": "Historical DNS and WHOIS data; great for tracking infrastructure changes over time."
+ },
+ {
+  "name": "ViewDNS.info",
+  "url": "https://viewdns.info",
+  "category": "Infrastructure & Network",
+  "pricing": "Free",
+  "note": "Collection of free DNS, reverse IP and WHOIS lookups in one place."
+ },
+ {
+  "name": "BGP.tools",
+  "url": "https://bgp.tools",
+  "category": "Infrastructure & Network",
+  "pricing": "Free",
+  "note": "Fast BGP and ASN explorer for understanding who routes an IP block."
+ },
+ {
+  "name": "Hurricane Electric BGP Toolkit",
+  "url": "https://bgp.he.net",
+  "category": "Infrastructure & Network",
+  "pricing": "Free",
+  "note": "Long-standing ASN, prefix and peering lookup service."
+ },
+ {
+  "name": "URLScan.io",
+  "url": "https://urlscan.io",
+  "category": "Web & Domain Analysis",
+  "pricing": "Free",
+  "note": "Sandbox that loads a URL and records requests, screenshots and indicators; great for phishing triage."
+ },
+ {
+  "name": "VirusTotal",
+  "url": "https://www.virustotal.com",
+  "category": "Malware Analysis",
+  "pricing": "Free",
+  "note": "Multi-engine scanner for files, URLs, domains and IPs with community comments and relationships."
+ },
+ {
+  "name": "Hybrid Analysis",
+  "url": "https://www.hybrid-analysis.com",
+  "category": "Malware Analysis",
+  "pricing": "Free",
+  "note": "Free malware sandbox powered by CrowdStrike Falcon Sandbox technology."
+ },
+ {
+  "name": "ANY.RUN",
+  "url": "https://any.run",
+  "category": "Malware Analysis",
+  "pricing": "Paid",
+  "note": "Interactive malware sandbox where you can click through a live detonation."
+ },
+ {
+  "name": "Joe Sandbox",
+  "url": "https://www.joesandbox.com",
+  "category": "Malware Analysis",
+  "pricing": "Paid",
+  "note": "Deep automated malware analysis with detailed behavioral reports."
+ },
+ {
+  "name": "MalwareBazaar",
+  "url": "https://bazaar.abuse.ch",
+  "category": "Malware Analysis",
+  "pricing": "Free",
+  "note": "abuse.ch repository for sharing malware samples with tags and signatures."
+ },
+ {
+  "name": "URLhaus",
+  "url": "https://urlhaus.abuse.ch",
+  "category": "Threat Intelligence",
+  "pricing": "Free",
+  "note": "abuse.ch database of malicious URLs used for malware distribution."
+ },
+ {
+  "name": "ThreatFox",
+  "url": "https://threatfox.abuse.ch",
+  "category": "Threat Intelligence",
+  "pricing": "Free",
+  "note": "Community IOC sharing platform from abuse.ch, with a free API."
+ },
+ {
+  "name": "Feodo Tracker",
+  "url": "https://feodotracker.abuse.ch",
+  "category": "Threat Intelligence",
+  "pricing": "Free",
+  "note": "Tracks botnet command-and-control servers and publishes blocklists."
+ },
+ {
+  "name": "AlienVault OTX",
+  "url": "https://otx.alienvault.com",
+  "category": "Threat Intelligence",
+  "pricing": "Free",
+  "note": "Open Threat Exchange: community pulses of IOCs and an API for enrichment."
+ },
+ {
+  "name": "MISP",
+  "url": "https://www.misp-project.org",
+  "category": "Threat Intelligence",
+  "pricing": "Free",
+  "note": "Open-source threat intel sharing platform used by CERTs and ISACs worldwide."
+ },
+ {
+  "name": "OpenCTI",
+  "url": "https://filigran.io/solutions/open-cti/",
+  "category": "Threat Intelligence",
+  "pricing": "Free",
+  "note": "Open-source platform for structuring threat intel on the STIX 2 model."
+ },
+ {
+  "name": "MITRE ATT&CK",
+  "url": "https://attack.mitre.org",
+  "category": "Frameworks & Knowledge",
+  "pricing": "Free",
+  "note": "The standard knowledge base of adversary tactics and techniques."
+ },
+ {
+  "name": "MITRE D3FEND",
+  "url": "https://d3fend.mitre.org",
+  "category": "Frameworks & Knowledge",
+  "pricing": "Free",
+  "note": "Knowledge graph of defensive countermeasures mapped against ATT&CK."
+ },
+ {
+  "name": "CISA KEV Catalog",
+  "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+  "category": "Vulnerability Intel",
+  "pricing": "Free",
+  "note": "CISA's list of vulnerabilities known to be exploited in the wild; a must-watch for patch priority."
+ },
+ {
+  "name": "NVD",
+  "url": "https://nvd.nist.gov",
+  "category": "Vulnerability Intel",
+  "pricing": "Free",
+  "note": "NIST National Vulnerability Database with CVSS scoring for CVEs."
+ },
+ {
+  "name": "CVE.org",
+  "url": "https://www.cve.org",
+  "category": "Vulnerability Intel",
+  "pricing": "Free",
+  "note": "The official CVE program site and record search."
+ },
+ {
+  "name": "Exploit-DB",
+  "url": "https://www.exploit-db.com",
+  "category": "Vulnerability Intel",
+  "pricing": "Free",
+  "note": "Archive of public exploits and proof-of-concept code maintained by OffSec."
+ },
+ {
+  "name": "FIRST EPSS",
+  "url": "https://www.first.org/epss/",
+  "category": "Vulnerability Intel",
+  "pricing": "Free",
+  "note": "Exploit Prediction Scoring System estimating the chance a CVE will be exploited soon."
+ },
+ {
+  "name": "Vulners",
+  "url": "https://vulners.com",
+  "category": "Vulnerability Intel",
+  "pricing": "Paid",
+  "note": "Aggregated vulnerability search engine with exploit and advisory correlation."
+ },
+ {
+  "name": "AbuseIPDB",
+  "url": "https://www.abuseipdb.com",
+  "category": "Threat Intelligence",
+  "pricing": "Free",
+  "note": "Community-reported abusive IP database with a free lookup API."
+ },
+ {
+  "name": "IPinfo",
+  "url": "https://ipinfo.io",
+  "category": "Infrastructure & Network",
+  "pricing": "Paid",
+  "note": "Accurate IP geolocation, ASN and privacy-detection data with a free tier."
+ },
+ {
+  "name": "Pulsedive",
+  "url": "https://pulsedive.com",
+  "category": "Threat Intelligence",
+  "pricing": "Free",
+  "note": "Free threat intel platform for enriching and pivoting on IOCs."
+ },
+ {
+  "name": "Have I Been Pwned",
+  "url": "https://haveibeenpwned.com",
+  "category": "Breach & Leak Data",
+  "pricing": "Free",
+  "note": "Troy Hunt's breach notification service for emails and passwords."
+ },
+ {
+  "name": "DeHashed",
+  "url": "https://dehashed.com",
+  "category": "Breach & Leak Data",
+  "pricing": "Paid",
+  "note": "Searchable breach data for investigators, with paid access."
+ },
+ {
+  "name": "Intelligence X",
+  "url": "https://intelx.io",
+  "category": "Breach & Leak Data",
+  "pricing": "Paid",
+  "note": "Search engine and archive covering leaks, darknet and historical web data."
+ },
+ {
+  "name": "Hudson Rock Cavalier (free tools)",
+  "url": "https://www.hudsonrock.com/free-tools",
+  "category": "Breach & Leak Data",
+  "pricing": "Free",
+  "note": "Free lookups for infostealer-infected credentials tied to emails and domains."
+ },
+ {
+  "name": "LeakCheck",
+  "url": "https://leakcheck.io",
+  "category": "Breach & Leak Data",
+  "pricing": "Paid",
+  "note": "Breach lookup service by email, username or phone."
+ },
+ {
+  "name": "Hunter.io",
+  "url": "https://hunter.io",
+  "category": "People & Email",
+  "pricing": "Paid",
+  "note": "Finds and verifies professional email addresses by domain."
+ },
+ {
+  "name": "Epieos",
+  "url": "https://epieos.com",
+  "category": "People & Email",
+  "pricing": "Paid",
+  "note": "Reverse email and phone lookup that surfaces linked accounts."
+ },
+ {
+  "name": "Holehe",
+  "url": "https://github.com/megadose/holehe",
+  "category": "People & Email",
+  "pricing": "Free",
+  "note": "Checks whether an email is registered on 120+ sites without alerting the target."
+ },
+ {
+  "name": "Sherlock",
+  "url": "https://github.com/sherlock-project/sherlock",
+  "category": "Usernames & Social Media",
+  "pricing": "Free",
+  "note": "Hunts a username across hundreds of social networks."
+ },
+ {
+  "name": "Maigret",
+  "url": "https://github.com/soxoj/maigret",
+  "category": "Usernames & Social Media",
+  "pricing": "Free",
+  "note": "Sherlock-style username search that also parses profile details into a report."
+ },
+ {
+  "name": "Namechk",
+  "url": "https://namechk.com",
+  "category": "Usernames & Social Media",
+  "pricing": "Free",
+  "note": "Quick username availability check across platforms and domains."
+ },
+ {
+  "name": "Social-Analyzer",
+  "url": "https://github.com/qeeqbox/social-analyzer",
+  "category": "Usernames & Social Media",
+  "pricing": "Free",
+  "note": "API, CLI and web app for analyzing and finding a person's profiles across sites."
+ },
+ {
+  "name": "Instaloader",
+  "url": "https://github.com/instaloader/instaloader",
+  "category": "Usernames & Social Media",
+  "pricing": "Free",
+  "note": "Downloads public Instagram profiles, posts and metadata for archiving."
+ },
+ {
+  "name": "yt-dlp",
+  "url": "https://github.com/yt-dlp/yt-dlp",
+  "category": "Archiving & Capture",
+  "pricing": "Free",
+  "note": "Command-line downloader for video from YouTube and hundreds of other sites; vital for preserving evidence."
+ },
+ {
+  "name": "Wayback Machine",
+  "url": "https://web.archive.org",
+  "category": "Archiving & Capture",
+  "pricing": "Free",
+  "note": "Internet Archive's historical web snapshots, plus on-demand page saving."
+ },
+ {
+  "name": "archive.today",
+  "url": "https://archive.ph",
+  "category": "Archiving & Capture",
+  "pricing": "Free",
+  "note": "On-demand web page snapshot service that captures pages the Wayback Machine misses."
+ },
+ {
+  "name": "Hunchly",
+  "url": "https://www.hunch.ly",
+  "category": "Archiving & Capture",
+  "pricing": "Paid",
+  "note": "Browser extension that automatically captures and logs every page during an investigation."
+ },
+ {
+  "name": "ArchiveBox",
+  "url": "https://archivebox.io",
+  "category": "Archiving & Capture",
+  "pricing": "Free",
+  "note": "Self-hosted web archiving tool that saves pages in multiple formats."
+ },
+ {
+  "name": "SingleFile",
+  "url": "https://github.com/gildas-lormeau/SingleFile",
+  "category": "Archiving & Capture",
+  "pricing": "Free",
+  "note": "Browser extension that saves a complete web page into a single HTML file."
+ },
+ {
+  "name": "Google Earth",
+  "url": "https://earth.google.com",
+  "category": "Geolocation & Imagery",
+  "pricing": "Free",
+  "note": "Global imagery with historical layers; the starting point for most geolocation work."
+ },
+ {
+  "name": "Sentinel Hub EO Browser",
+  "url": "https://apps.sentinel-hub.com/eo-browser/",
+  "category": "Geolocation & Imagery",
+  "pricing": "Free",
+  "note": "Browse free Sentinel and Landsat satellite imagery by date and band."
+ },
+ {
+  "name": "Copernicus Browser",
+  "url": "https://browser.dataspace.copernicus.eu",
+  "category": "Geolocation & Imagery",
+  "pricing": "Free",
+  "note": "ESA's official viewer for Sentinel satellite data."
+ },
+ {
+  "name": "NASA FIRMS",
+  "url": "https://firms.modaps.eosdis.nasa.gov",
+  "category": "Geolocation & Imagery",
+  "pricing": "Free",
+  "note": "Near-real-time fire and thermal anomaly map, often used to track strikes and conflict events."
+ },
+ {
+  "name": "Overpass Turbo",
+  "url": "https://overpass-turbo.eu",
+  "category": "Geolocation & Imagery",
+  "pricing": "Free",
+  "note": "Query OpenStreetMap data to find locations matching features seen in imagery."
+ },
+ {
+  "name": "OpenStreetMap",
+  "url": "https://www.openstreetmap.org",
+  "category": "Geolocation & Imagery",
+  "pricing": "Free",
+  "note": "Open, community-built world map with detail often missing from commercial maps."
+ },
+ {
+  "name": "SunCalc",
+  "url": "https://www.suncalc.org",
+  "category": "Geolocation & Imagery",
+  "pricing": "Free",
+  "note": "Shows sun position and shadow angles for chronolocation of photos."
+ },
+ {
+  "name": "PeakVisor",
+  "url": "https://peakvisor.com",
+  "category": "Geolocation & Imagery",
+  "pricing": "Paid",
+  "note": "Identifies mountain ridgelines, useful for geolocating outdoor imagery."
+ },
+ {
+  "name": "GeoSpy",
+  "url": "https://geospy.ai",
+  "category": "Geolocation & Imagery",
+  "pricing": "Paid",
+  "note": "AI-assisted photo geolocation; treat results as leads to verify."
+ },
+ {
+  "name": "Planet",
+  "url": "https://www.planet.com",
+  "category": "Geolocation & Imagery",
+  "pricing": "Paid",
+  "note": "Daily commercial satellite imagery of the whole planet."
+ },
+ {
+  "name": "Flightradar24",
+  "url": "https://www.flightradar24.com",
+  "category": "Transport Tracking",
+  "pricing": "Paid",
+  "note": "Live and historical flight tracking with a solid free tier."
+ },
+ {
+  "name": "ADS-B Exchange",
+  "url": "https://globe.adsbexchange.com",
+  "category": "Transport Tracking",
+  "pricing": "Free",
+  "note": "Unfiltered ADS-B flight tracking, including many military and government aircraft."
+ },
+ {
+  "name": "ADSB.lol",
+  "url": "https://adsb.lol",
+  "category": "Transport Tracking",
+  "pricing": "Free",
+  "note": "Open, community-fed ADS-B aggregator with free data and API."
+ },
+ {
+  "name": "MarineTraffic",
+  "url": "https://www.marinetraffic.com",
+  "category": "Transport Tracking",
+  "pricing": "Paid",
+  "note": "AIS ship tracking with vessel details and port calls."
+ },
+ {
+  "name": "VesselFinder",
+  "url": "https://www.vesselfinder.com",
+  "category": "Transport Tracking",
+  "pricing": "Paid",
+  "note": "Free AIS vessel position tracking with paid history."
+ },
+ {
+  "name": "Global Fishing Watch",
+  "url": "https://globalfishingwatch.org/map/",
+  "category": "Transport Tracking",
+  "pricing": "Free",
+  "note": "Tracks fishing vessel activity and AIS gaps, useful for dark-shipping research."
+ },
+ {
+  "name": "OpenRailwayMap",
+  "url": "https://www.openrailwaymap.org",
+  "category": "Transport Tracking",
+  "pricing": "Free",
+  "note": "Rail infrastructure map built on OpenStreetMap."
+ },
+ {
+  "name": "TinEye",
+  "url": "https://tineye.com",
+  "category": "Image & Video Verification",
+  "pricing": "Free",
+  "note": "Reverse image search that is strong at finding the oldest copy of an image."
+ },
+ {
+  "name": "Google Lens",
+  "url": "https://lens.google",
+  "category": "Image & Video Verification",
+  "pricing": "Free",
+  "note": "Google's visual search, the go-to first pass for reverse image lookup."
+ },
+ {
+  "name": "Yandex Images",
+  "url": "https://yandex.com/images/",
+  "category": "Image & Video Verification",
+  "pricing": "Free",
+  "note": "Reverse image search known for strong face and landmark matching."
+ },
+ {
+  "name": "FotoForensics",
+  "url": "https://fotoforensics.com",
+  "category": "Image & Video Verification",
+  "pricing": "Free",
+  "note": "Error level analysis and metadata viewer for spotting image edits."
+ },
+ {
+  "name": "Forensically",
+  "url": "https://29a.ch/photo-forensics/",
+  "category": "Image & Video Verification",
+  "pricing": "Free",
+  "note": "Browser-based image forensics: clone detection, ELA, noise analysis."
+ },
+ {
+  "name": "InVID WeVerify Plugin",
+  "url": "https://weverify.eu/verification-plugin/",
+  "category": "Image & Video Verification",
+  "pricing": "Free",
+  "note": "Browser plugin for video keyframes, reverse search and metadata used by newsrooms."
+ },
+ {
+  "name": "ExifTool",
+  "url": "https://exiftool.org",
+  "category": "Image & Video Verification",
+  "pricing": "Free",
+  "note": "The definitive metadata reader and writer for images, video and documents."
+ },
+ {
+  "name": "Jeffrey's Image Metadata Viewer",
+  "url": "https://jimpl.com",
+  "category": "Image & Video Verification",
+  "pricing": "Free",
+  "note": "Online EXIF viewer that shows camera data and embedded GPS."
+ },
+ {
+  "name": "PimEyes",
+  "url": "https://pimeyes.com",
+  "category": "Image & Video Verification",
+  "pricing": "Paid",
+  "note": "Face search engine; powerful and ethically sensitive, so use within legal limits."
+ },
+ {
+  "name": "OpenCorporates",
+  "url": "https://opencorporates.com",
+  "category": "Corporate & Financial",
+  "pricing": "Free",
+  "note": "Largest open database of company registrations worldwide."
+ },
+ {
+  "name": "SEC EDGAR",
+  "url": "https://www.sec.gov/edgar/search/",
+  "category": "Corporate & Financial",
+  "pricing": "Free",
+  "note": "Full-text search of US public company filings."
+ },
+ {
+  "name": "OpenSanctions",
+  "url": "https://www.opensanctions.org",
+  "category": "Corporate & Financial",
+  "pricing": "Free",
+  "note": "Consolidated sanctions, PEP and watchlist data, free for non-commercial use."
+ },
+ {
+  "name": "OFAC Sanctions Search",
+  "url": "https://sanctionssearch.ofac.treas.gov",
+  "category": "Corporate & Financial",
+  "pricing": "Free",
+  "note": "US Treasury's official SDN list search."
+ },
+ {
+  "name": "ICIJ Offshore Leaks",
+  "url": "https://offshoreleaks.icij.org",
+  "category": "Corporate & Financial",
+  "pricing": "Free",
+  "note": "Searchable database from the Panama, Paradise and Pandora Papers."
+ },
+ {
+  "name": "OCCRP Aleph",
+  "url": "https://aleph.occrp.org",
+  "category": "Corporate & Financial",
+  "pricing": "Free",
+  "note": "Investigative data platform with millions of public records and leaks."
+ },
+ {
+  "name": "UK Companies House",
+  "url": "https://find-and-update.company-information.service.gov.uk",
+  "category": "Corporate & Financial",
+  "pricing": "Free",
+  "note": "Free UK company, officer and filing search."
+ },
+ {
+  "name": "GLEIF LEI Search",
+  "url": "https://search.gleif.org",
+  "category": "Corporate & Financial",
+  "pricing": "Free",
+  "note": "Global Legal Entity Identifier lookup showing corporate parent relationships."
+ },
+ {
+  "name": "Blockchain.com Explorer",
+  "url": "https://www.blockchain.com/explorer",
+  "category": "Crypto Investigation",
+  "pricing": "Free",
+  "note": "Basic explorer for Bitcoin and Ethereum transactions."
+ },
+ {
+  "name": "Etherscan",
+  "url": "https://etherscan.io",
+  "category": "Crypto Investigation",
+  "pricing": "Free",
+  "note": "The standard Ethereum explorer with labels for known addresses."
+ },
+ {
+  "name": "Breadcrumbs",
+  "url": "https://www.breadcrumbs.app",
+  "category": "Crypto Investigation",
+  "pricing": "Paid",
+  "note": "Visual blockchain tracing with a free tier for following funds."
+ },
+ {
+  "name": "Arkham Intelligence",
+  "url": "https://intel.arkm.com",
+  "category": "Crypto Investigation",
+  "pricing": "Free",
+  "note": "Entity-labeled blockchain analytics platform."
+ },
+ {
+  "name": "Chainabuse",
+  "url": "https://www.chainabuse.com",
+  "category": "Crypto Investigation",
+  "pricing": "Free",
+  "note": "Community reports of crypto scams and malicious addresses."
+ },
+ {
+  "name": "Tor Project",
+  "url": "https://www.torproject.org",
+  "category": "OPSEC & Privacy",
+  "pricing": "Free",
+  "note": "Anonymity network and browser; baseline tool for safe dark-web research."
+ },
+ {
+  "name": "Tails",
+  "url": "https://tails.net",
+  "category": "OPSEC & Privacy",
+  "pricing": "Free",
+  "note": "Amnesic live operating system that leaves no trace on the host."
+ },
+ {
+  "name": "Whonix",
+  "url": "https://www.whonix.org",
+  "category": "OPSEC & Privacy",
+  "pricing": "Free",
+  "note": "VM-based OS that forces all traffic through Tor."
+ },
+ {
+  "name": "Qubes OS",
+  "url": "https://www.qubes-os.org",
+  "category": "OPSEC & Privacy",
+  "pricing": "Free",
+  "note": "Security-by-compartmentalization desktop OS."
+ },
+ {
+  "name": "Mullvad VPN",
+  "url": "https://mullvad.net",
+  "category": "OPSEC & Privacy",
+  "pricing": "Paid",
+  "note": "Privacy-focused VPN with anonymous accounts and cash payments."
+ },
+ {
+  "name": "Proton VPN",
+  "url": "https://protonvpn.com",
+  "category": "OPSEC & Privacy",
+  "pricing": "Paid",
+  "note": "Swiss VPN with a no-logs policy and a free tier."
+ },
+ {
+  "name": "Signal",
+  "url": "https://signal.org",
+  "category": "OPSEC & Privacy",
+  "pricing": "Free",
+  "note": "End-to-end encrypted messaging; the default for secure comms."
+ },
+ {
+  "name": "Proton Mail",
+  "url": "https://proton.me/mail",
+  "category": "OPSEC & Privacy",
+  "pricing": "Paid",
+  "note": "Encrypted email with a free tier, based in Switzerland."
+ },
+ {
+  "name": "Bitwarden",
+  "url": "https://bitwarden.com",
+  "category": "OPSEC & Privacy",
+  "pricing": "Free",
+  "note": "Open-source password manager with strong free plan."
+ },
+ {
+  "name": "KeePassXC",
+  "url": "https://keepassxc.org",
+  "category": "OPSEC & Privacy",
+  "pricing": "Free",
+  "note": "Offline, open-source password manager."
+ },
+ {
+  "name": "VeraCrypt",
+  "url": "https://www.veracrypt.fr",
+  "category": "OPSEC & Privacy",
+  "pricing": "Free",
+  "note": "Disk and container encryption, successor to TrueCrypt."
+ },
+ {
+  "name": "Brave Browser",
+  "url": "https://brave.com",
+  "category": "OPSEC & Privacy",
+  "pricing": "Free",
+  "note": "Privacy-first browser that blocks trackers by default."
+ },
+ {
+  "name": "uBlock Origin",
+  "url": "https://github.com/gorhill/uBlock",
+  "category": "OPSEC & Privacy",
+  "pricing": "Free",
+  "note": "Efficient content blocker that also cuts tracking during research."
+ },
+ {
+  "name": "Cover Your Tracks (EFF)",
+  "url": "https://coveryourtracks.eff.org",
+  "category": "OPSEC & Privacy",
+  "pricing": "Free",
+  "note": "Tests how unique and trackable your browser fingerprint is."
+ },
+ {
+  "name": "BrowserLeaks",
+  "url": "https://browserleaks.com",
+  "category": "OPSEC & Privacy",
+  "pricing": "Free",
+  "note": "Checks what your browser leaks: IP, WebRTC, fonts, canvas and more."
+ },
+ {
+  "name": "EFF Surveillance Self-Defense",
+  "url": "https://ssd.eff.org",
+  "category": "OPSEC & Privacy",
+  "pricing": "Free",
+  "note": "Practical guides to protecting yourself from surveillance."
+ },
+ {
+  "name": "Privacy Guides",
+  "url": "https://www.privacyguides.org",
+  "category": "OPSEC & Privacy",
+  "pricing": "Free",
+  "note": "Community-vetted recommendations for privacy tools and practices."
+ },
+ {
+  "name": "Yubico YubiKey",
+  "url": "https://www.yubico.com",
+  "category": "OPSEC & Privacy",
+  "pricing": "Paid",
+  "note": "Hardware security keys for phishing-resistant multi-factor authentication."
+ },
+ {
+  "name": "Ahmia",
+  "url": "https://ahmia.fi",
+  "category": "Dark Web",
+  "pricing": "Free",
+  "note": "Clearnet search engine for Tor hidden services that filters abuse content."
+ },
+ {
+  "name": "OnionScan",
+  "url": "https://github.com/s-rah/onionscan",
+  "category": "Dark Web",
+  "pricing": "Free",
+  "note": "Scans onion services for misconfigurations that leak identity."
+ },
+ {
+  "name": "Ransomware.live",
+  "url": "https://www.ransomware.live",
+  "category": "Threat Intelligence",
+  "pricing": "Free",
+  "note": "Tracks ransomware leak-site posts and victims in near real time."
+ },
+ {
+  "name": "RansomLook",
+  "url": "https://www.ransomlook.io",
+  "category": "Threat Intelligence",
+  "pricing": "Free",
+  "note": "Open-source ransomware leak-site and forum monitor."
+ },
+ {
+  "name": "ID Ransomware",
+  "url": "https://id-ransomware.malwarehunterteam.com",
+  "category": "Malware Analysis",
+  "pricing": "Free",
+  "note": "Identifies ransomware families from ransom notes or encrypted files."
+ },
+ {
+  "name": "No More Ransom",
+  "url": "https://www.nomoreransom.org",
+  "category": "Malware Analysis",
+  "pricing": "Free",
+  "note": "Europol-backed portal of free ransomware decryptors."
+ },
+ {
+  "name": "CyberChef",
+  "url": "https://gchq.github.io/CyberChef/",
+  "category": "Analysis Utilities",
+  "pricing": "Free",
+  "note": "GCHQ's 'cyber Swiss army knife' for encoding, decoding and data transforms."
+ },
+ {
+  "name": "Ghidra",
+  "url": "https://ghidra-sre.org",
+  "category": "Malware Analysis",
+  "pricing": "Free",
+  "note": "NSA's open-source reverse engineering suite."
+ },
+ {
+  "name": "YARA",
+  "url": "https://virustotal.github.io/yara/",
+  "category": "Malware Analysis",
+  "pricing": "Free",
+  "note": "Pattern-matching rules language for classifying malware."
+ },
+ {
+  "name": "Sigma",
+  "url": "https://github.com/SigmaHQ/sigma",
+  "category": "Detection & Response",
+  "pricing": "Free",
+  "note": "Generic signature format for SIEM detections, with a large rule library."
+ },
+ {
+  "name": "Velociraptor",
+  "url": "https://docs.velociraptor.app",
+  "category": "Detection & Response",
+  "pricing": "Free",
+  "note": "Endpoint visibility and DFIR collection tool at scale."
+ },
+ {
+  "name": "Wazuh",
+  "url": "https://wazuh.com",
+  "category": "Detection & Response",
+  "pricing": "Free",
+  "note": "Open-source SIEM and XDR platform."
+ },
+ {
+  "name": "Security Onion",
+  "url": "https://securityonionsolutions.com",
+  "category": "Detection & Response",
+  "pricing": "Free",
+  "note": "Free Linux distro for threat hunting and network security monitoring."
+ },
+ {
+  "name": "Zeek",
+  "url": "https://zeek.org",
+  "category": "Detection & Response",
+  "pricing": "Free",
+  "note": "Network analysis framework producing rich traffic logs."
+ },
+ {
+  "name": "Suricata",
+  "url": "https://suricata.io",
+  "category": "Detection & Response",
+  "pricing": "Free",
+  "note": "High-performance open-source IDS/IPS engine."
+ },
+ {
+  "name": "Wireshark",
+  "url": "https://www.wireshark.org",
+  "category": "Analysis Utilities",
+  "pricing": "Free",
+  "note": "The standard packet capture and protocol analyzer."
+ },
+ {
+  "name": "Autopsy",
+  "url": "https://www.autopsy.com",
+  "category": "Detection & Response",
+  "pricing": "Free",
+  "note": "Open-source digital forensics platform built on The Sleuth Kit."
+ },
+ {
+  "name": "Volatility",
+  "url": "https://volatilityfoundation.org",
+  "category": "Detection & Response",
+  "pricing": "Free",
+  "note": "Memory forensics framework for analyzing RAM captures."
+ },
+ {
+  "name": "Nmap",
+  "url": "https://nmap.org",
+  "category": "Infrastructure & Network",
+  "pricing": "Free",
+  "note": "The classic network scanner for host discovery and service detection."
+ },
+ {
+  "name": "Nuclei",
+  "url": "https://github.com/projectdiscovery/nuclei",
+  "category": "Infrastructure & Network",
+  "pricing": "Free",
+  "note": "Template-based vulnerability scanner with a huge community template set."
+ },
+ {
+  "name": "OSINT Framework",
+  "url": "https://osintframework.com",
+  "category": "Frameworks & Knowledge",
+  "pricing": "Free",
+  "note": "Clickable tree of OSINT resources organized by data type."
+ },
+ {
+  "name": "IntelTechniques",
+  "url": "https://inteltechniques.com",
+  "category": "Training & Education",
+  "pricing": "Paid",
+  "note": "Michael Bazzell's OSINT and privacy books, podcast and training."
+ },
+ {
+  "name": "Bellingcat Online Investigation Toolkit",
+  "url": "https://bellingcat.gitbook.io/toolkit",
+  "category": "Frameworks & Knowledge",
+  "pricing": "Free",
+  "note": "Bellingcat's curated, categorized guide to investigation tools."
+ },
+ {
+  "name": "Bellingcat Guides",
+  "url": "https://www.bellingcat.com/category/resources/how-tos/",
+  "category": "Training & Education",
+  "pricing": "Free",
+  "note": "Free how-to articles on open-source investigation techniques."
+ },
+ {
+  "name": "SANS Institute",
+  "url": "https://www.sans.org",
+  "category": "Training & Education",
+  "pricing": "Paid",
+  "note": "Industry-leading security training and GIAC certifications, including OSINT (SEC497)."
+ },
+ {
+  "name": "SANS Webcasts",
+  "url": "https://www.sans.org/webcasts/",
+  "category": "Training & Education",
+  "pricing": "Free",
+  "note": "Free webcasts on intel, DFIR and security topics."
+ },
+ {
+  "name": "Trace Labs",
+  "url": "https://www.tracelabs.org",
+  "category": "Training & Education",
+  "pricing": "Free",
+  "note": "Crowdsourced OSINT CTFs that help find missing persons."
+ },
+ {
+  "name": "TryHackMe",
+  "url": "https://tryhackme.com",
+  "category": "Training & Education",
+  "pricing": "Paid",
+  "note": "Gamified, browser-based security labs for all skill levels."
+ },
+ {
+  "name": "Hack The Box",
+  "url": "https://www.hackthebox.com",
+  "category": "Training & Education",
+  "pricing": "Paid",
+  "note": "Hands-on offensive and defensive security labs and certifications."
+ },
+ {
+  "name": "OffSec",
+  "url": "https://www.offsec.com",
+  "category": "Training & Education",
+  "pricing": "Paid",
+  "note": "Creators of OSCP and Kali; rigorous hands-on certification training."
+ },
+ {
+  "name": "Cybrary",
+  "url": "https://www.cybrary.it",
+  "category": "Training & Education",
+  "pricing": "Paid",
+  "note": "Online cybersecurity courses and career paths."
+ },
+ {
+  "name": "Blue Team Labs Online",
+  "url": "https://blueteamlabs.online",
+  "category": "Training & Education",
+  "pricing": "Paid",
+  "note": "Defensive security challenges and investigations."
+ },
+ {
+  "name": "LetsDefend",
+  "url": "https://letsdefend.io",
+  "category": "Training & Education",
+  "pricing": "Paid",
+  "note": "SOC analyst training platform with simulated alerts."
+ },
+ {
+  "name": "CISA Free Cybersecurity Services",
+  "url": "https://www.cisa.gov/resources-tools/resources/free-cybersecurity-services-and-tools",
+  "category": "Training & Education",
+  "pricing": "Free",
+  "note": "CISA's catalog of free services and tools for defenders."
+ },
+ {
+  "name": "NICCS Training Catalog",
+  "url": "https://niccs.cisa.gov",
+  "category": "Training & Education",
+  "pricing": "Free",
+  "note": "US government catalog of cybersecurity training and education."
+ },
+ {
+  "name": "OSINT Combine",
+  "url": "https://www.osintcombine.com",
+  "category": "Training & Education",
+  "pricing": "Paid",
+  "note": "OSINT training courses and free investigation tools."
+ },
+ {
+  "name": "My OSINT Training",
+  "url": "https://www.myosint.training",
+  "category": "Training & Education",
+  "pricing": "Paid",
+  "note": "Self-paced OSINT courses from beginner to advanced."
+ },
+ {
+  "name": "Basel Institute OSINT resources",
+  "url": "https://baselgovernance.org",
+  "category": "Training & Education",
+  "pricing": "Free",
+  "note": "Anti-corruption and financial investigation training, including free eLearning."
+ },
+ {
+  "name": "GIJN Resource Center",
+  "url": "https://gijn.org/resource-center/",
+  "category": "Training & Education",
+  "pricing": "Free",
+  "note": "Global Investigative Journalism Network guides and tipsheets."
+ },
+ {
+  "name": "First Draft / Information Futures Lab",
+  "url": "https://firstdraftnews.org",
+  "category": "Training & Education",
+  "pricing": "Free",
+  "note": "Archive of verification and misinformation research training."
+ },
+ {
+  "name": "The Record by Recorded Future",
+  "url": "https://therecord.media",
+  "category": "News & Reporting",
+  "pricing": "Free",
+  "note": "Cybersecurity news desk covering threats, policy and nation-state activity."
+ },
+ {
+  "name": "BleepingComputer",
+  "url": "https://www.bleepingcomputer.com",
+  "category": "News & Reporting",
+  "pricing": "Free",
+  "note": "Fast-moving news on ransomware, breaches and vulnerabilities."
+ },
+ {
+  "name": "Krebs on Security",
+  "url": "https://krebsonsecurity.com",
+  "category": "News & Reporting",
+  "pricing": "Free",
+  "note": "Brian Krebs's investigative reporting on cybercrime."
+ },
+ {
+  "name": "The DFIR Report",
+  "url": "https://thedfirreport.com",
+  "category": "News & Reporting",
+  "pricing": "Free",
+  "note": "Detailed real-world intrusion reports with timelines and IOCs."
+ },
+ {
+  "name": "Dark Reading",
+  "url": "https://www.darkreading.com",
+  "category": "News & Reporting",
+  "pricing": "Free",
+  "note": "Enterprise security news and analysis."
+ },
+ {
+  "name": "SecurityWeek",
+  "url": "https://www.securityweek.com",
+  "category": "News & Reporting",
+  "pricing": "Free",
+  "note": "Daily cybersecurity and ICS security news."
+ },
+ {
+  "name": "The Hacker News",
+  "url": "https://thehackernews.com",
+  "category": "News & Reporting",
+  "pricing": "Free",
+  "note": "Popular cybersecurity news site covering threats and vulnerabilities."
+ },
+ {
+  "name": "Risky Business",
+  "url": "https://risky.biz",
+  "category": "News & Reporting",
+  "pricing": "Free",
+  "note": "Weekly security podcast and newsletter with expert commentary."
+ },
+ {
+  "name": "CISA Cybersecurity Advisories",
+  "url": "https://www.cisa.gov/news-events/cybersecurity-advisories",
+  "category": "News & Reporting",
+  "pricing": "Free",
+  "note": "Official US government advisories on active threats."
+ },
+ {
+  "name": "Google Threat Intelligence Blog",
+  "url": "https://cloud.google.com/blog/topics/threat-intelligence",
+  "category": "News & Reporting",
+  "pricing": "Free",
+  "note": "Mandiant and Google threat research on APTs and campaigns."
+ },
+ {
+  "name": "Microsoft Threat Intelligence",
+  "url": "https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/",
+  "category": "News & Reporting",
+  "pricing": "Free",
+  "note": "Microsoft's threat actor research and campaign reporting."
+ },
+ {
+  "name": "Unit 42",
+  "url": "https://unit42.paloaltonetworks.com",
+  "category": "News & Reporting",
+  "pricing": "Free",
+  "note": "Palo Alto Networks threat research and incident reports."
+ },
+ {
+  "name": "Talos Intelligence",
+  "url": "https://talosintelligence.com",
+  "category": "Threat Intelligence",
+  "pricing": "Free",
+  "note": "Cisco Talos reputation lookups and threat research."
+ },
+ {
+  "name": "Liveuamap",
+  "url": "https://liveuamap.com",
+  "category": "Conflict & Geopolitical",
+  "pricing": "Paid",
+  "note": "Live map of conflict events built from open sources."
+ },
+ {
+  "name": "ACLED",
+  "url": "https://acleddata.com",
+  "category": "Conflict & Geopolitical",
+  "pricing": "Free",
+  "note": "Armed conflict location and event data, free for research use."
+ },
+ {
+  "name": "GDELT Project",
+  "url": "https://www.gdeltproject.org",
+  "category": "Conflict & Geopolitical",
+  "pricing": "Free",
+  "note": "Global news event database for large-scale media monitoring."
+ },
+ {
+  "name": "ReliefWeb",
+  "url": "https://reliefweb.int",
+  "category": "Conflict & Geopolitical",
+  "pricing": "Free",
+  "note": "UN OCHA humanitarian reports and crisis updates."
+ },
+ {
+  "name": "Critical Threats",
+  "url": "https://www.criticalthreats.org",
+  "category": "Conflict & Geopolitical",
+  "pricing": "Free",
+  "note": "AEI project tracking threats from adversary states and terrorist groups."
+ },
+ {
+  "name": "Institute for the Study of War",
+  "url": "https://www.understandingwar.org",
+  "category": "Conflict & Geopolitical",
+  "pricing": "Free",
+  "note": "Daily conflict assessments and maps."
+ },
+ {
+  "name": "Janes",
+  "url": "https://www.janes.com",
+  "category": "Conflict & Geopolitical",
+  "pricing": "Paid",
+  "note": "Defense intelligence data on militaries, equipment and forces."
+ },
+ {
+  "name": "Oryx",
+  "url": "https://www.oryxspioenkop.com",
+  "category": "Conflict & Geopolitical",
+  "pricing": "Free",
+  "note": "Visually confirmed equipment loss tracking from open sources."
+ },
+ {
+  "name": "Global Terrorism Database",
+  "url": "https://www.start.umd.edu/gtd/",
+  "category": "Conflict & Geopolitical",
+  "pricing": "Free",
+  "note": "START's database of terrorist incidents since 1970."
+ },
+ {
+  "name": "Counter Extremism Project",
+  "url": "https://www.counterextremism.com",
+  "category": "Conflict & Geopolitical",
+  "pricing": "Free",
+  "note": "Research and reports on extremist groups and leaders."
+ },
+ {
+  "name": "Telegago",
+  "url": "https://cse.google.com/cse?cx=006368593537057042503:efxu7xprihg",
+  "category": "Usernames & Social Media",
+  "pricing": "Free",
+  "note": "Custom Google search for public Telegram channels and groups."
+ },
+ {
+  "name": "TGStat",
+  "url": "https://tgstat.com",
+  "category": "Usernames & Social Media",
+  "pricing": "Free",
+  "note": "Telegram channel analytics and search."
+ },
+ {
+  "name": "Social Blade",
+  "url": "https://socialblade.com",
+  "category": "Usernames & Social Media",
+  "pricing": "Free",
+  "note": "Follower and growth statistics for YouTube, X, Instagram and more."
+ },
+ {
+  "name": "Wikileaks",
+  "url": "https://wikileaks.org",
+  "category": "Breach & Leak Data",
+  "pricing": "Free",
+  "note": "Archive of leaked government and corporate documents."
+ },
+ {
+  "name": "DocumentCloud",
+  "url": "https://www.documentcloud.org",
+  "category": "Analysis Utilities",
+  "pricing": "Free",
+  "note": "Upload, OCR, annotate and publish primary-source documents."
+ },
+ {
+  "name": "Obsidian",
+  "url": "https://obsidian.md",
+  "category": "Analysis Utilities",
+  "pricing": "Free",
+  "note": "Local-first markdown notebook popular for investigation notes and link graphs."
+ },
+ {
+  "name": "Gephi",
+  "url": "https://gephi.org",
+  "category": "Link Analysis",
+  "pricing": "Free",
+  "note": "Open-source network visualization for large relationship graphs."
+ },
+ {
+  "name": "i2 Analyst's Notebook",
+  "url": "https://i2group.com",
+  "category": "Link Analysis",
+  "pricing": "Paid",
+  "note": "Law-enforcement standard link-analysis and visualization tool."
+ },
+ {
+  "name": "OSINT Industries",
+  "url": "https://www.osint.industries",
+  "category": "People & Email",
+  "pricing": "Paid",
+  "note": "Real-time email and phone lookup across hundreds of platforms."
+ },
+ {
+  "name": "Whoxy",
+  "url": "https://www.whoxy.com",
+  "category": "Web & Domain Analysis",
+  "pricing": "Paid",
+  "note": "WHOIS and reverse WHOIS search with historical records."
+ },
+ {
+  "name": "DomainTools",
+  "url": "https://www.domaintools.com",
+  "category": "Web & Domain Analysis",
+  "pricing": "Paid",
+  "note": "Enterprise domain and DNS intelligence with deep WHOIS history."
+ },
+ {
+  "name": "BuiltWith",
+  "url": "https://builtwith.com",
+  "category": "Web & Domain Analysis",
+  "pricing": "Paid",
+  "note": "Shows the technology stack behind a website; helpful for linking sites."
+ },
+ {
+  "name": "Wappalyzer",
+  "url": "https://www.wappalyzer.com",
+  "category": "Web & Domain Analysis",
+  "pricing": "Paid",
+  "note": "Browser extension identifying technologies used on websites."
+ },
+ {
+  "name": "DNSTwist",
+  "url": "https://github.com/elceef/dnstwist",
+  "category": "Web & Domain Analysis",
+  "pricing": "Free",
+  "note": "Generates and checks lookalike domains for phishing and typosquat detection."
+ },
+ {
+  "name": "Phishtank",
+  "url": "https://phishtank.org",
+  "category": "Web & Domain Analysis",
+  "pricing": "Free",
+  "note": "Community-verified phishing URL database."
+ },
+ {
+  "name": "Check Phish (Bolster)",
+  "url": "https://checkphish.bolster.ai",
+  "category": "Web & Domain Analysis",
+  "pricing": "Free",
+  "note": "Free URL scanner that flags phishing and scam sites."
+ },
+ {
+  "name": "Google Safe Browsing Status",
+  "url": "https://transparencyreport.google.com/safe-browsing/search",
+  "category": "Web & Domain Analysis",
+  "pricing": "Free",
+  "note": "Checks whether Google currently flags a site as unsafe."
+ },
+ {
+  "name": "Google Dorks (GHDB)",
+  "url": "https://www.exploit-db.com/google-hacking-database",
+  "category": "Recon & Footprinting",
+  "pricing": "Free",
+  "note": "Google Hacking Database of search operators that surface exposed data."
+ },
+ {
+  "name": "FOCA",
+  "url": "https://github.com/ElevenPaths/FOCA",
+  "category": "Recon & Footprinting",
+  "pricing": "Free",
+  "note": "Extracts metadata from public documents to reveal users and software."
+ },
+ {
+  "name": "Metagoofil",
+  "url": "https://github.com/opsdisk/metagoofil",
+  "category": "Recon & Footprinting",
+  "pricing": "Free",
+  "note": "Finds and downloads public documents from a domain for metadata analysis."
+ },
+ {
+  "name": "Photon",
+  "url": "https://github.com/s0md3v/Photon",
+  "category": "Recon & Footprinting",
+  "pricing": "Free",
+  "note": "Fast crawler that extracts URLs, emails and files from a site."
+ },
+ {
+  "name": "GitHub Code Search",
+  "url": "https://github.com/search",
+  "category": "Recon & Footprinting",
+  "pricing": "Free",
+  "note": "Searching public code often reveals leaked keys, emails and infrastructure."
+ },
+ {
+  "name": "TruffleHog",
+  "url": "https://github.com/trufflesecurity/trufflehog",
+  "category": "Recon & Footprinting",
+  "pricing": "Free",
+  "note": "Finds leaked secrets and credentials in git repos and other sources."
+ },
+ {
+  "name": "Gitleaks",
+  "url": "https://github.com/gitleaks/gitleaks",
+  "category": "Recon & Footprinting",
+  "pricing": "Free",
+  "note": "Scans repositories for hardcoded secrets."
+ }
+]

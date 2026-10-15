@@ -1,0 +1,207 @@
+Maltego|https://www.maltego.com|Link Analysis|Paid|Graph-based link analysis platform for mapping relationships between people, domains and infrastructure. Free Community edition available.
+SpiderFoot|https://github.com/smicallef/spiderfoot|Recon & Footprinting|Free|Automated OSINT scanner with 200+ modules for footprinting domains, IPs and names. The open-source version runs locally.
+theHarvester|https://github.com/laramies/theHarvester|Recon & Footprinting|Free|Classic command-line tool for gathering emails, subdomains and hosts from public sources during early recon.
+Recon-ng|https://github.com/lanmaster53/recon-ng|Recon & Footprinting|Free|Modular recon framework with a Metasploit-style console; good for repeatable, scripted investigations.
+Amass|https://github.com/owasp-amass/amass|Recon & Footprinting|Free|OWASP project for in-depth attack surface mapping and subdomain enumeration.
+Subfinder|https://github.com/projectdiscovery/subfinder|Recon & Footprinting|Free|Fast passive subdomain discovery tool that pulls from dozens of public sources.
+Shodan|https://www.shodan.io|Infrastructure & Network|Paid|Search engine for internet-connected devices; essential for exposure checks and infrastructure pivots.
+Censys|https://search.censys.io|Infrastructure & Network|Paid|Internet-wide scan data for hosts and certificates, with a usable free search tier.
+ZoomEye|https://www.zoomeye.ai|Infrastructure & Network|Paid|Cyberspace search engine similar to Shodan, with strong coverage of Asian infrastructure.
+FOFA|https://en.fofa.info|Infrastructure & Network|Paid|Asset search engine useful for fingerprinting services and finding related infrastructure.
+GreyNoise|https://www.greynoise.io|Threat Intelligence|Paid|Tells you which IPs are mass-scanning the internet so you can separate background noise from targeted activity.
+crt.sh|https://crt.sh|Infrastructure & Network|Free|Certificate Transparency log search; a quick way to find subdomains and newly issued certs.
+DNSDumpster|https://dnsdumpster.com|Infrastructure & Network|Free|Free domain research tool that maps DNS records and hosts visually.
+SecurityTrails|https://securitytrails.com|Infrastructure & Network|Paid|Historical DNS and WHOIS data; great for tracking infrastructure changes over time.
+ViewDNS.info|https://viewdns.info|Infrastructure & Network|Free|Collection of free DNS, reverse IP and WHOIS lookups in one place.
+BGP.tools|https://bgp.tools|Infrastructure & Network|Free|Fast BGP and ASN explorer for understanding who routes an IP block.
+Hurricane Electric BGP Toolkit|https://bgp.he.net|Infrastructure & Network|Free|Long-standing ASN, prefix and peering lookup service.
+URLScan.io|https://urlscan.io|Web & Domain Analysis|Free|Sandbox that loads a URL and records requests, screenshots and indicators; great for phishing triage.
+VirusTotal|https://www.virustotal.com|Malware Analysis|Free|Multi-engine scanner for files, URLs, domains and IPs with community comments and relationships.
+Hybrid Analysis|https://www.hybrid-analysis.com|Malware Analysis|Free|Free malware sandbox powered by CrowdStrike Falcon Sandbox technology.
+ANY.RUN|https://any.run|Malware Analysis|Paid|Interactive malware sandbox where you can click through a live detonation.
+Joe Sandbox|https://www.joesandbox.com|Malware Analysis|Paid|Deep automated malware analysis with detailed behavioral reports.
+MalwareBazaar|https://bazaar.abuse.ch|Malware Analysis|Free|abuse.ch repository for sharing malware samples with tags and signatures.
+URLhaus|https://urlhaus.abuse.ch|Threat Intelligence|Free|abuse.ch database of malicious URLs used for malware distribution.
+ThreatFox|https://threatfox.abuse.ch|Threat Intelligence|Free|Community IOC sharing platform from abuse.ch, with a free API.
+Feodo Tracker|https://feodotracker.abuse.ch|Threat Intelligence|Free|Tracks botnet command-and-control servers and publishes blocklists.
+AlienVault OTX|https://otx.alienvault.com|Threat Intelligence|Free|Open Threat Exchange: community pulses of IOCs and an API for enrichment.
+MISP|https://www.misp-project.org|Threat Intelligence|Free|Open-source threat intel sharing platform used by CERTs and ISACs worldwide.
+OpenCTI|https://filigran.io/solutions/open-cti/|Threat Intelligence|Free|Open-source platform for structuring threat intel on the STIX 2 model.
+MITRE ATT&CK|https://attack.mitre.org|Frameworks & Knowledge|Free|The standard knowledge base of adversary tactics and techniques.
+MITRE D3FEND|https://d3fend.mitre.org|Frameworks & Knowledge|Free|Knowledge graph of defensive countermeasures mapped against ATT&CK.
+CISA KEV Catalog|https://www.cisa.gov/known-exploited-vulnerabilities-catalog|Vulnerability Intel|Free|CISA's list of vulnerabilities known to be exploited in the wild; a must-watch for patch priority.
+NVD|https://nvd.nist.gov|Vulnerability Intel|Free|NIST National Vulnerability Database with CVSS scoring for CVEs.
+CVE.org|https://www.cve.org|Vulnerability Intel|Free|The official CVE program site and record search.
+Exploit-DB|https://www.exploit-db.com|Vulnerability Intel|Free|Archive of public exploits and proof-of-concept code maintained by OffSec.
+FIRST EPSS|https://www.first.org/epss/|Vulnerability Intel|Free|Exploit Prediction Scoring System estimating the chance a CVE will be exploited soon.
+Vulners|https://vulners.com|Vulnerability Intel|Paid|Aggregated vulnerability search engine with exploit and advisory correlation.
+AbuseIPDB|https://www.abuseipdb.com|Threat Intelligence|Free|Community-reported abusive IP database with a free lookup API.
+IPinfo|https://ipinfo.io|Infrastructure & Network|Paid|Accurate IP geolocation, ASN and privacy-detection data with a free tier.
+Pulsedive|https://pulsedive.com|Threat Intelligence|Free|Free threat intel platform for enriching and pivoting on IOCs.
+ThreatMiner|https://www.threatminer.org|Threat Intelligence|Free|Free portal linking domains, hashes and reports for threat research pivots.
+Have I Been Pwned|https://haveibeenpwned.com|Breach & Leak Data|Free|Troy Hunt's breach notification service for emails and passwords.
+DeHashed|https://dehashed.com|Breach & Leak Data|Paid|Searchable breach data for investigators, with paid access.
+Intelligence X|https://intelx.io|Breach & Leak Data|Paid|Search engine and archive covering leaks, darknet and historical web data.
+Hudson Rock Cavalier (free tools)|https://www.hudsonrock.com/free-tools|Breach & Leak Data|Free|Free lookups for infostealer-infected credentials tied to emails and domains.
+LeakCheck|https://leakcheck.io|Breach & Leak Data|Paid|Breach lookup service by email, username or phone.
+Hunter.io|https://hunter.io|People & Email|Paid|Finds and verifies professional email addresses by domain.
+Epieos|https://epieos.com|People & Email|Paid|Reverse email and phone lookup that surfaces linked accounts.
+Holehe|https://github.com/megadose/holehe|People & Email|Free|Checks whether an email is registered on 120+ sites without alerting the target.
+Sherlock|https://github.com/sherlock-project/sherlock|Usernames & Social Media|Free|Hunts a username across hundreds of social networks.
+Maigret|https://github.com/soxoj/maigret|Usernames & Social Media|Free|Sherlock-style username search that also parses profile details into a report.
+WhatsMyName|https://whatsmyname.app|Usernames & Social Media|Free|Web-based username enumeration backed by a well-maintained community list.
+Namechk|https://namechk.com|Usernames & Social Media|Free|Quick username availability check across platforms and domains.
+Social-Analyzer|https://github.com/qeeqbox/social-analyzer|Usernames & Social Media|Free|API, CLI and web app for analyzing and finding a person's profiles across sites.
+Instaloader|https://github.com/instaloader/instaloader|Usernames & Social Media|Free|Downloads public Instagram profiles, posts and metadata for archiving.
+yt-dlp|https://github.com/yt-dlp/yt-dlp|Archiving & Capture|Free|Command-line downloader for video from YouTube and hundreds of other sites; vital for preserving evidence.
+Wayback Machine|https://web.archive.org|Archiving & Capture|Free|Internet Archive's historical web snapshots, plus on-demand page saving.
+archive.today|https://archive.ph|Archiving & Capture|Free|On-demand web page snapshot service that captures pages the Wayback Machine misses.
+Hunchly|https://www.hunch.ly|Archiving & Capture|Paid|Browser extension that automatically captures and logs every page during an investigation.
+ArchiveBox|https://archivebox.io|Archiving & Capture|Free|Self-hosted web archiving tool that saves pages in multiple formats.
+SingleFile|https://github.com/gildas-lormeau/SingleFile|Archiving & Capture|Free|Browser extension that saves a complete web page into a single HTML file.
+Google Earth|https://earth.google.com|Geolocation & Imagery|Free|Global imagery with historical layers; the starting point for most geolocation work.
+Sentinel Hub EO Browser|https://apps.sentinel-hub.com/eo-browser/|Geolocation & Imagery|Free|Browse free Sentinel and Landsat satellite imagery by date and band.
+Copernicus Browser|https://browser.dataspace.copernicus.eu|Geolocation & Imagery|Free|ESA's official viewer for Sentinel satellite data.
+NASA FIRMS|https://firms.modaps.eosdis.nasa.gov|Geolocation & Imagery|Free|Near-real-time fire and thermal anomaly map, often used to track strikes and conflict events.
+Overpass Turbo|https://overpass-turbo.eu|Geolocation & Imagery|Free|Query OpenStreetMap data to find locations matching features seen in imagery.
+OpenStreetMap|https://www.openstreetmap.org|Geolocation & Imagery|Free|Open, community-built world map with detail often missing from commercial maps.
+SunCalc|https://www.suncalc.org|Geolocation & Imagery|Free|Shows sun position and shadow angles for chronolocation of photos.
+PeakVisor|https://peakvisor.com|Geolocation & Imagery|Paid|Identifies mountain ridgelines, useful for geolocating outdoor imagery.
+Mapillary|https://www.mapillary.com|Geolocation & Imagery|Free|Crowdsourced street-level imagery that fills gaps in Street View.
+GeoSpy|https://geospy.ai|Geolocation & Imagery|Paid|AI-assisted photo geolocation; treat results as leads to verify.
+Planet|https://www.planet.com|Geolocation & Imagery|Paid|Daily commercial satellite imagery of the whole planet.
+Flightradar24|https://www.flightradar24.com|Transport Tracking|Paid|Live and historical flight tracking with a solid free tier.
+ADS-B Exchange|https://globe.adsbexchange.com|Transport Tracking|Free|Unfiltered ADS-B flight tracking, including many military and government aircraft.
+ADSB.lol|https://adsb.lol|Transport Tracking|Free|Open, community-fed ADS-B aggregator with free data and API.
+MarineTraffic|https://www.marinetraffic.com|Transport Tracking|Paid|AIS ship tracking with vessel details and port calls.
+VesselFinder|https://www.vesselfinder.com|Transport Tracking|Paid|Free AIS vessel position tracking with paid history.
+Global Fishing Watch|https://globalfishingwatch.org/map/|Transport Tracking|Free|Tracks fishing vessel activity and AIS gaps, useful for dark-shipping research.
+OpenRailwayMap|https://www.openrailwaymap.org|Transport Tracking|Free|Rail infrastructure map built on OpenStreetMap.
+TinEye|https://tineye.com|Image & Video Verification|Free|Reverse image search that is strong at finding the oldest copy of an image.
+Google Lens|https://lens.google|Image & Video Verification|Free|Google's visual search, the go-to first pass for reverse image lookup.
+Yandex Images|https://yandex.com/images/|Image & Video Verification|Free|Reverse image search known for strong face and landmark matching.
+FotoForensics|https://fotoforensics.com|Image & Video Verification|Free|Error level analysis and metadata viewer for spotting image edits.
+Forensically|https://29a.ch/photo-forensics/|Image & Video Verification|Free|Browser-based image forensics: clone detection, ELA, noise analysis.
+InVID WeVerify Plugin|https://weverify.eu/verification-plugin/|Image & Video Verification|Free|Browser plugin for video keyframes, reverse search and metadata used by newsrooms.
+ExifTool|https://exiftool.org|Image & Video Verification|Free|The definitive metadata reader and writer for images, video and documents.
+Jeffrey's Image Metadata Viewer|https://jimpl.com|Image & Video Verification|Free|Online EXIF viewer that shows camera data and embedded GPS.
+PimEyes|https://pimeyes.com|Image & Video Verification|Paid|Face search engine; powerful and ethically sensitive, so use within legal limits.
+OpenCorporates|https://opencorporates.com|Corporate & Financial|Free|Largest open database of company registrations worldwide.
+SEC EDGAR|https://www.sec.gov/edgar/search/|Corporate & Financial|Free|Full-text search of US public company filings.
+OpenSanctions|https://www.opensanctions.org|Corporate & Financial|Free|Consolidated sanctions, PEP and watchlist data, free for non-commercial use.
+OFAC Sanctions Search|https://sanctionssearch.ofac.treas.gov|Corporate & Financial|Free|US Treasury's official SDN list search.
+ICIJ Offshore Leaks|https://offshoreleaks.icij.org|Corporate & Financial|Free|Searchable database from the Panama, Paradise and Pandora Papers.
+OCCRP Aleph|https://aleph.occrp.org|Corporate & Financial|Free|Investigative data platform with millions of public records and leaks.
+UK Companies House|https://find-and-update.company-information.service.gov.uk|Corporate & Financial|Free|Free UK company, officer and filing search.
+GLEIF LEI Search|https://search.gleif.org|Corporate & Financial|Free|Global Legal Entity Identifier lookup showing corporate parent relationships.
+Blockchain.com Explorer|https://www.blockchain.com/explorer|Crypto Investigation|Free|Basic explorer for Bitcoin and Ethereum transactions.
+Etherscan|https://etherscan.io|Crypto Investigation|Free|The standard Ethereum explorer with labels for known addresses.
+Breadcrumbs|https://www.breadcrumbs.app|Crypto Investigation|Paid|Visual blockchain tracing with a free tier for following funds.
+OXT|https://oxt.me|Crypto Investigation|Free|Bitcoin explorer with transaction graph analysis.
+Arkham Intelligence|https://intel.arkm.com|Crypto Investigation|Free|Entity-labeled blockchain analytics platform.
+Chainabuse|https://www.chainabuse.com|Crypto Investigation|Free|Community reports of crypto scams and malicious addresses.
+Tor Project|https://www.torproject.org|OPSEC & Privacy|Free|Anonymity network and browser; baseline tool for safe dark-web research.
+Tails|https://tails.net|OPSEC & Privacy|Free|Amnesic live operating system that leaves no trace on the host.
+Whonix|https://www.whonix.org|OPSEC & Privacy|Free|VM-based OS that forces all traffic through Tor.
+Qubes OS|https://www.qubes-os.org|OPSEC & Privacy|Free|Security-by-compartmentalization desktop OS.
+Mullvad VPN|https://mullvad.net|OPSEC & Privacy|Paid|Privacy-focused VPN with anonymous accounts and cash payments.
+Proton VPN|https://protonvpn.com|OPSEC & Privacy|Paid|Swiss VPN with a no-logs policy and a free tier.
+Signal|https://signal.org|OPSEC & Privacy|Free|End-to-end encrypted messaging; the default for secure comms.
+Proton Mail|https://proton.me/mail|OPSEC & Privacy|Paid|Encrypted email with a free tier, based in Switzerland.
+Bitwarden|https://bitwarden.com|OPSEC & Privacy|Free|Open-source password manager with strong free plan.
+KeePassXC|https://keepassxc.org|OPSEC & Privacy|Free|Offline, open-source password manager.
+VeraCrypt|https://www.veracrypt.fr|OPSEC & Privacy|Free|Disk and container encryption, successor to TrueCrypt.
+Brave Browser|https://brave.com|OPSEC & Privacy|Free|Privacy-first browser that blocks trackers by default.
+uBlock Origin|https://github.com/gorhill/uBlock|OPSEC & Privacy|Free|Efficient content blocker that also cuts tracking during research.
+Cover Your Tracks (EFF)|https://coveryourtracks.eff.org|OPSEC & Privacy|Free|Tests how unique and trackable your browser fingerprint is.
+BrowserLeaks|https://browserleaks.com|OPSEC & Privacy|Free|Checks what your browser leaks: IP, WebRTC, fonts, canvas and more.
+EFF Surveillance Self-Defense|https://ssd.eff.org|OPSEC & Privacy|Free|Practical guides to protecting yourself from surveillance.
+Privacy Guides|https://www.privacyguides.org|OPSEC & Privacy|Free|Community-vetted recommendations for privacy tools and practices.
+Yubico YubiKey|https://www.yubico.com|OPSEC & Privacy|Paid|Hardware security keys for phishing-resistant multi-factor authentication.
+Ahmia|https://ahmia.fi|Dark Web|Free|Clearnet search engine for Tor hidden services that filters abuse content.
+OnionScan|https://github.com/s-rah/onionscan|Dark Web|Free|Scans onion services for misconfigurations that leak identity.
+Ransomware.live|https://www.ransomware.live|Threat Intelligence|Free|Tracks ransomware leak-site posts and victims in near real time.
+RansomLook|https://www.ransomlook.io|Threat Intelligence|Free|Open-source ransomware leak-site and forum monitor.
+ID Ransomware|https://id-ransomware.malwarehunterteam.com|Malware Analysis|Free|Identifies ransomware families from ransom notes or encrypted files.
+No More Ransom|https://www.nomoreransom.org|Malware Analysis|Free|Europol-backed portal of free ransomware decryptors.
+CyberChef|https://gchq.github.io/CyberChef/|Analysis Utilities|Free|GCHQ's 'cyber Swiss army knife' for encoding, decoding and data transforms.
+Ghidra|https://ghidra-sre.org|Malware Analysis|Free|NSA's open-source reverse engineering suite.
+YARA|https://virustotal.github.io/yara/|Malware Analysis|Free|Pattern-matching rules language for classifying malware.
+Sigma|https://github.com/SigmaHQ/sigma|Detection & Response|Free|Generic signature format for SIEM detections, with a large rule library.
+Velociraptor|https://docs.velociraptor.app|Detection & Response|Free|Endpoint visibility and DFIR collection tool at scale.
+Wazuh|https://wazuh.com|Detection & Response|Free|Open-source SIEM and XDR platform.
+Security Onion|https://securityonionsolutions.com|Detection & Response|Free|Free Linux distro for threat hunting and network security monitoring.
+Zeek|https://zeek.org|Detection & Response|Free|Network analysis framework producing rich traffic logs.
+Suricata|https://suricata.io|Detection & Response|Free|High-performance open-source IDS/IPS engine.
+Wireshark|https://www.wireshark.org|Analysis Utilities|Free|The standard packet capture and protocol analyzer.
+Autopsy|https://www.autopsy.com|Detection & Response|Free|Open-source digital forensics platform built on The Sleuth Kit.
+Volatility|https://volatilityfoundation.org|Detection & Response|Free|Memory forensics framework for analyzing RAM captures.
+Nmap|https://nmap.org|Infrastructure & Network|Free|The classic network scanner for host discovery and service detection.
+Nuclei|https://github.com/projectdiscovery/nuclei|Infrastructure & Network|Free|Template-based vulnerability scanner with a huge community template set.
+OSINT Framework|https://osintframework.com|Frameworks & Knowledge|Free|Clickable tree of OSINT resources organized by data type.
+IntelTechniques|https://inteltechniques.com|Training & Education|Paid|Michael Bazzell's OSINT and privacy books, podcast and training.
+Bellingcat Online Investigation Toolkit|https://bellingcat.gitbook.io/toolkit|Frameworks & Knowledge|Free|Bellingcat's curated, categorized guide to investigation tools.
+Bellingcat Guides|https://www.bellingcat.com/category/resources/how-tos/|Training & Education|Free|Free how-to articles on open-source investigation techniques.
+SANS Institute|https://www.sans.org|Training & Education|Paid|Industry-leading security training and GIAC certifications, including OSINT (SEC497).
+SANS Webcasts|https://www.sans.org/webcasts/|Training & Education|Free|Free webcasts on intel, DFIR and security topics.
+Trace Labs|https://www.tracelabs.org|Training & Education|Free|Crowdsourced OSINT CTFs that help find missing persons.
+TryHackMe|https://tryhackme.com|Training & Education|Paid|Gamified, browser-based security labs for all skill levels.
+Hack The Box|https://www.hackthebox.com|Training & Education|Paid|Hands-on offensive and defensive security labs and certifications.
+OffSec|https://www.offsec.com|Training & Education|Paid|Creators of OSCP and Kali; rigorous hands-on certification training.
+Cybrary|https://www.cybrary.it|Training & Education|Paid|Online cybersecurity courses and career paths.
+Blue Team Labs Online|https://blueteamlabs.online|Training & Education|Paid|Defensive security challenges and investigations.
+LetsDefend|https://letsdefend.io|Training & Education|Paid|SOC analyst training platform with simulated alerts.
+CISA Free Cybersecurity Services|https://www.cisa.gov/resources-tools/resources/free-cybersecurity-services-and-tools|Training & Education|Free|CISA's catalog of free services and tools for defenders.
+NICCS Training Catalog|https://niccs.cisa.gov|Training & Education|Free|US government catalog of cybersecurity training and education.
+OSINT Combine|https://www.osintcombine.com|Training & Education|Paid|OSINT training courses and free investigation tools.
+My OSINT Training|https://www.myosint.training|Training & Education|Paid|Self-paced OSINT courses from beginner to advanced.
+Basel Institute OSINT resources|https://baselgovernance.org|Training & Education|Free|Anti-corruption and financial investigation training, including free eLearning.
+GIJN Resource Center|https://gijn.org/resource-center/|Training & Education|Free|Global Investigative Journalism Network guides and tipsheets.
+First Draft / Information Futures Lab|https://firstdraftnews.org|Training & Education|Free|Archive of verification and misinformation research training.
+The Record by Recorded Future|https://therecord.media|News & Reporting|Free|Cybersecurity news desk covering threats, policy and nation-state activity.
+BleepingComputer|https://www.bleepingcomputer.com|News & Reporting|Free|Fast-moving news on ransomware, breaches and vulnerabilities.
+Krebs on Security|https://krebsonsecurity.com|News & Reporting|Free|Brian Krebs's investigative reporting on cybercrime.
+The DFIR Report|https://thedfirreport.com|News & Reporting|Free|Detailed real-world intrusion reports with timelines and IOCs.
+Dark Reading|https://www.darkreading.com|News & Reporting|Free|Enterprise security news and analysis.
+SecurityWeek|https://www.securityweek.com|News & Reporting|Free|Daily cybersecurity and ICS security news.
+The Hacker News|https://thehackernews.com|News & Reporting|Free|Popular cybersecurity news site covering threats and vulnerabilities.
+Risky Business|https://risky.biz|News & Reporting|Free|Weekly security podcast and newsletter with expert commentary.
+CISA Cybersecurity Advisories|https://www.cisa.gov/news-events/cybersecurity-advisories|News & Reporting|Free|Official US government advisories on active threats.
+Google Threat Intelligence Blog|https://cloud.google.com/blog/topics/threat-intelligence|News & Reporting|Free|Mandiant and Google threat research on APTs and campaigns.
+Microsoft Threat Intelligence|https://www.microsoft.com/en-us/security/blog/topic/threat-intelligence/|News & Reporting|Free|Microsoft's threat actor research and campaign reporting.
+Unit 42|https://unit42.paloaltonetworks.com|News & Reporting|Free|Palo Alto Networks threat research and incident reports.
+Talos Intelligence|https://talosintelligence.com|Threat Intelligence|Free|Cisco Talos reputation lookups and threat research.
+Liveuamap|https://liveuamap.com|Conflict & Geopolitical|Paid|Live map of conflict events built from open sources.
+ACLED|https://acleddata.com|Conflict & Geopolitical|Free|Armed conflict location and event data, free for research use.
+GDELT Project|https://www.gdeltproject.org|Conflict & Geopolitical|Free|Global news event database for large-scale media monitoring.
+ReliefWeb|https://reliefweb.int|Conflict & Geopolitical|Free|UN OCHA humanitarian reports and crisis updates.
+Critical Threats|https://www.criticalthreats.org|Conflict & Geopolitical|Free|AEI project tracking threats from adversary states and terrorist groups.
+Institute for the Study of War|https://www.understandingwar.org|Conflict & Geopolitical|Free|Daily conflict assessments and maps.
+Janes|https://www.janes.com|Conflict & Geopolitical|Paid|Defense intelligence data on militaries, equipment and forces.
+Oryx|https://www.oryxspioenkop.com|Conflict & Geopolitical|Free|Visually confirmed equipment loss tracking from open sources.
+Global Terrorism Database|https://www.start.umd.edu/gtd/|Conflict & Geopolitical|Free|START's database of terrorist incidents since 1970.
+Counter Extremism Project|https://www.counterextremism.com|Conflict & Geopolitical|Free|Research and reports on extremist groups and leaders.
+Telegago|https://cse.google.com/cse?cx=006368593537057042503:efxu7xprihg|Usernames & Social Media|Free|Custom Google search for public Telegram channels and groups.
+TGStat|https://tgstat.com|Usernames & Social Media|Free|Telegram channel analytics and search.
+Social Blade|https://socialblade.com|Usernames & Social Media|Free|Follower and growth statistics for YouTube, X, Instagram and more.
+Wikileaks|https://wikileaks.org|Breach & Leak Data|Free|Archive of leaked government and corporate documents.
+DocumentCloud|https://www.documentcloud.org|Analysis Utilities|Free|Upload, OCR, annotate and publish primary-source documents.
+Obsidian|https://obsidian.md|Analysis Utilities|Free|Local-first markdown notebook popular for investigation notes and link graphs.
+Gephi|https://gephi.org|Link Analysis|Free|Open-source network visualization for large relationship graphs.
+i2 Analyst's Notebook|https://i2group.com|Link Analysis|Paid|Law-enforcement standard link-analysis and visualization tool.
+OSINT Industries|https://www.osint.industries|People & Email|Paid|Real-time email and phone lookup across hundreds of platforms.
+Whoxy|https://www.whoxy.com|Web & Domain Analysis|Paid|WHOIS and reverse WHOIS search with historical records.
+DomainTools|https://www.domaintools.com|Web & Domain Analysis|Paid|Enterprise domain and DNS intelligence with deep WHOIS history.
+BuiltWith|https://builtwith.com|Web & Domain Analysis|Paid|Shows the technology stack behind a website; helpful for linking sites.
+Wappalyzer|https://www.wappalyzer.com|Web & Domain Analysis|Paid|Browser extension identifying technologies used on websites.
+DNSTwist|https://github.com/elceef/dnstwist|Web & Domain Analysis|Free|Generates and checks lookalike domains for phishing and typosquat detection.
+Phishtank|https://phishtank.org|Web & Domain Analysis|Free|Community-verified phishing URL database.
+Check Phish (Bolster)|https://checkphish.bolster.ai|Web & Domain Analysis|Free|Free URL scanner that flags phishing and scam sites.
+Google Safe Browsing Status|https://transparencyreport.google.com/safe-browsing/search|Web & Domain Analysis|Free|Checks whether Google currently flags a site as unsafe.
+Google Dorks (GHDB)|https://www.exploit-db.com/google-hacking-database|Recon & Footprinting|Free|Google Hacking Database of search operators that surface exposed data.
+FOCA|https://github.com/ElevenPaths/FOCA|Recon & Footprinting|Free|Extracts metadata from public documents to reveal users and software.
+Metagoofil|https://github.com/opsdisk/metagoofil|Recon & Footprinting|Free|Finds and downloads public documents from a domain for metadata analysis.
+Photon|https://github.com/s0md3v/Photon|Recon & Footprinting|Free|Fast crawler that extracts URLs, emails and files from a site.
+GitHub Code Search|https://github.com/search|Recon & Footprinting|Free|Searching public code often reveals leaked keys, emails and infrastructure.
+TruffleHog|https://github.com/trufflesecurity/trufflehog|Recon & Footprinting|Free|Finds leaked secrets and credentials in git repos and other sources.
+Gitleaks|https://github.com/gitleaks/gitleaks|Recon & Footprinting|Free|Scans repositories for hardcoded secrets.
