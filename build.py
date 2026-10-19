@@ -19,7 +19,7 @@ cats = sorted({t["category"] for t in tools})
 today = datetime.date.today().isoformat()
 
 CSS = """*{box-sizing:border-box}body{margin:0;font:16px/1.55 system-ui,-apple-system,Segoe UI,Roboto,sans-serif;color:#1c2430;background:#f5f7fa}
-a{color:#0b5cad}.promo{background:#0a1422;border-bottom:1px solid #22344d;text-align:center;font-size:.85rem;line-height:1.3;padding:7px 14px}.promo a{color:#dce6f2;text-decoration:none}.promo a:hover b{text-decoration:underline}.promo b{color:#f2b544;font-weight:600}.promo .s{display:none}@media(max-width:640px){.promo .l{display:none}.promo .s{display:inline}}header{background:#0f1c2e;color:#fff}header .w{display:flex;flex-wrap:wrap;gap:12px;align-items:center;justify-content:space-between;padding:14px 18px}
+a{color:#0b5cad}.promo{background:linear-gradient(90deg,#0a1422 0%,#163049 50%,#0a1422 100%);border-bottom:2px solid #f2b544;text-align:center;font-size:.95rem;line-height:1.35;padding:11px 16px}.promo a{color:#eef4fb;text-decoration:none;display:inline-flex;align-items:center;justify-content:center;gap:10px;flex-wrap:wrap}.promo a:hover .cta-pill{background:#ffc857}.promo b{color:#f2b544;font-weight:700}.promo .cta-pill{display:inline-block;background:#f2b544;color:#0a1422;font-weight:700;font-size:.85rem;padding:5px 12px;border-radius:999px;letter-spacing:.02em}.promo .price{color:#9ec0e6;font-size:.82rem;font-weight:500}.promo .s{display:none}@media(max-width:640px){.promo{padding:10px 12px;font-size:.88rem}.promo .l{display:none}.promo .s{display:inline}}header{background:#0f1c2e;color:#fff}header .w{display:flex;flex-wrap:wrap;gap:12px;align-items:center;justify-content:space-between;padding:14px 18px}
 header a{color:#fff;text-decoration:none}.brand{font-weight:700;font-size:1.15rem;display:flex;align-items:center;gap:10px}.brand img{width:44px;height:44px;flex:none}.brand small{display:block;font-weight:400;font-size:.75rem;opacity:.7}
 nav a{margin-left:16px;font-size:.95rem;opacity:.9}nav a:hover{opacity:1;text-decoration:underline}.w{max-width:1100px;margin:0 auto;padding:0 18px}
 .hero{background:linear-gradient(135deg,#0f1c2e,#1d3b5f);color:#fff;padding:36px 0 30px}.hero h1{margin:0 0 8px;font-size:1.9rem}.hero p{margin:0;opacity:.85}
@@ -46,7 +46,7 @@ def layout(title, desc, path, body):
 <meta property="og:image" content="{SITE_URL}/og.png"><meta name="twitter:card" content="summary_large_image">
 <link rel="icon" href="/favicon.ico" sizes="any"><link rel="icon" type="image/png" href="/logo-64.png"><link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <link rel="stylesheet" href="/style.css"></head><body>
-<div class="promo"><a href="/subscribe/"><span class="l">{e(BRIEF)} — weekday intel, in your inbox before sunrise. <b>Subscribe →</b></span><span class="s">{e(BRIEF)} · <b>Subscribe</b></span></a></div>
+<div class="promo"><a href="/subscribe/"><span class="l">{e(BRIEF)} — weekday intel before sunrise. <span class="price">$12.50/mo or $107.50/yr</span> <span class="cta-pill">Subscribe →</span></span><span class="s">{e(BRIEF)} · <span class="cta-pill">Subscribe →</span></span></a></div>
 <header><div class="w" style="max-width:1100px;margin:0 auto"><a class="brand" href="/" aria-label="{e(SITE_NAME)} home"><img src="/logo-64.png" srcset="/logo-64.png 1x, /logo-128.png 2x" width="44" height="44" alt="American Kinetix logo"><span>{e(SITE_NAME)}<small>An AX Global resource</small></span></a>
 <nav><a href="/">Directory</a><a href="/submit/">Submit a Tool</a><a href="/advertise/">Advertise</a><a href="/subscribe/">Subscribe</a></nav></div></header>
 {body}
@@ -62,7 +62,7 @@ def card(t):
             f'<div class="meta"><a class="tag" href="/category/{slug(t["category"])}/">{e(t["category"])}</a><span class="tag {p}">{e(t["pricing"])}</span></div>'
             f'<p>{e(t["note"])}</p>{"<div class=meta style=margin-top:8px>★ Featured</div>" if t.get("featured") else ""}</div>')
 
-SUBCTA = f'<div class="cta"><b>Get the daily intel picture.</b> {e(BRIEF)} lands in your inbox every morning. <a href="/subscribe/">Subscribe →</a></div>'
+SUBCTA = f'<div class="cta"><b>Get the daily intel picture.</b> {e(BRIEF)} lands in your inbox every weekday morning — $12.50/mo or $107.50/yr. <a href="/subscribe/">Subscribe to The Early Bird™ →</a></div>'
 BANNER = f'<div class="banner">Top banner slot available: reach OSINT and security practitioners. <a href="/advertise/">Advertise here ($199/mo)</a></div>'
 JS = """<script>(function(){var q=document.getElementById('q'),cs=document.querySelectorAll('.chip'),cards=document.querySelectorAll('.card'),c=document.getElementById('count'),cat='';
 function run(){var v=q.value.toLowerCase().trim(),n=0;cards.forEach(function(k){var ok=(!cat||k.dataset.cat===cat)&&(!v||v.split(/\\s+/).every(function(w){return k.dataset.s.indexOf(w)>-1}));k.style.display=ok?'':'none';if(ok)n++});c.textContent=n+' tools'}
