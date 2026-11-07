@@ -1419,5 +1419,12 @@
   "category": "Recon & Footprinting",
   "pricing": "Free",
   "note": "Scans repositories for hardcoded secrets."
+ },
+ {
+  "name": "Lunar",
+  "url": "https://lunarcyber.com/",
+  "category": "Breach & Leak Data",
+  "pricing": "Free",
+  "note": "Free monitoring of compromised credentials, breach data, and leaked sessions tied to a verified company domain."
  }
 ]

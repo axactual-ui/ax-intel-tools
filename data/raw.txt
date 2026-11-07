@@ -205,3 +205,4 @@ Photon|https://github.com/s0md3v/Photon|Recon & Footprinting|Free|Fast crawler t
 GitHub Code Search|https://github.com/search|Recon & Footprinting|Free|Searching public code often reveals leaked keys, emails and infrastructure.
 TruffleHog|https://github.com/trufflesecurity/trufflehog|Recon & Footprinting|Free|Finds leaked secrets and credentials in git repos and other sources.
 Gitleaks|https://github.com/gitleaks/gitleaks|Recon & Footprinting|Free|Scans repositories for hardcoded secrets.
+Lunar|https://lunarcyber.com/|Breach & Leak Data|Free|Free monitoring of compromised credentials, breach data, and leaked sessions tied to a verified company domain.
