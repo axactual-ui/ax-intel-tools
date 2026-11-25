@@ -3,7 +3,7 @@ a{color:#0b5cad}.promo{background:linear-gradient(90deg,#0a1422 0%,#163049 50%,#
 header a{color:#fff;text-decoration:none}.brand{font-weight:700;font-size:1.15rem;display:flex;align-items:center;gap:10px}.brand img{width:44px;height:44px;flex:none}.brand small{display:block;font-weight:400;font-size:.75rem;opacity:.7}
 nav a{margin-left:16px;font-size:.95rem;opacity:.9}nav a:hover{opacity:1;text-decoration:underline}.w{max-width:1100px;margin:0 auto;padding:0 18px}
 .hero{background:linear-gradient(135deg,#0f1c2e,#1d3b5f);color:#fff;padding:36px 0 30px}.hero h1{margin:0 0 8px;font-size:1.9rem}.hero p{margin:0;opacity:.85}
-.banner{background:#fff8e1;border:1px dashed #d9a400;padding:12px;border-radius:8px;margin:18px 0;text-align:center;font-size:.9rem}
+.banner{background:#fff8e1;border:1px dashed #d9a400;padding:12px;border-radius:8px;margin:18px 0;text-align:center;font-size:.9rem}.banner.sponsor{background:transparent;border:none;padding:0;margin:18px 0;text-align:center}.banner.sponsor a{display:block;line-height:0}.banner.sponsor img{width:100%;max-width:1100px;height:auto;border-radius:8px;display:block;margin:0 auto}
 #q{width:100%;padding:13px 14px;font-size:1rem;border:1px solid #c9d2dc;border-radius:8px;margin:18px 0 10px}
 .chips{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:14px}.chip{border:1px solid #c9d2dc;background:#fff;border-radius:99px;padding:5px 12px;font-size:.85rem;cursor:pointer}
 .chip.on{background:#0f1c2e;color:#fff;border-color:#0f1c2e}.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:14px;padding-bottom:30px}

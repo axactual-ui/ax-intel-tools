@@ -1426,5 +1426,12 @@
   "category": "Breach & Leak Data",
   "pricing": "Free",
   "note": "Free monitoring of compromised credentials, breach data, and leaked sessions tied to a verified company domain."
+ },
+ {
+  "name": "Webz.io",
+  "url": "https://webz.io/?utm_source=axi68.com&utm_medium=mailing_list&utm_campaign=axi68.com&utm_id=axi68",
+  "category": "Dark Web",
+  "pricing": "Paid",
+  "note": "Dark web and deep web data feeds and API that return structured posts from Tor sites, forums, marketplaces and chat platforms for threat intelligence. Free monthly credits available."
  }
 ]

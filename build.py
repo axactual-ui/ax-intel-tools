@@ -23,7 +23,7 @@ a{color:#0b5cad}.promo{background:linear-gradient(90deg,#0a1422 0%,#163049 50%,#
 header a{color:#fff;text-decoration:none}.brand{font-weight:700;font-size:1.15rem;display:flex;align-items:center;gap:10px}.brand img{width:44px;height:44px;flex:none}.brand small{display:block;font-weight:400;font-size:.75rem;opacity:.7}
 nav a{margin-left:16px;font-size:.95rem;opacity:.9}nav a:hover{opacity:1;text-decoration:underline}.w{max-width:1100px;margin:0 auto;padding:0 18px}
 .hero{background:linear-gradient(135deg,#0f1c2e,#1d3b5f);color:#fff;padding:36px 0 30px}.hero h1{margin:0 0 8px;font-size:1.9rem}.hero p{margin:0;opacity:.85}
-.banner{background:#fff8e1;border:1px dashed #d9a400;padding:12px;border-radius:8px;margin:18px 0;text-align:center;font-size:.9rem}
+.banner{background:#fff8e1;border:1px dashed #d9a400;padding:12px;border-radius:8px;margin:18px 0;text-align:center;font-size:.9rem}.banner.sponsor{background:transparent;border:none;padding:0;margin:18px 0;text-align:center}.banner.sponsor a{display:block;line-height:0}.banner.sponsor img{width:100%;max-width:1100px;height:auto;border-radius:8px;display:block;margin:0 auto}
 #q{width:100%;padding:13px 14px;font-size:1rem;border:1px solid #c9d2dc;border-radius:8px;margin:18px 0 10px}
 .chips{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:14px}.chip{border:1px solid #c9d2dc;background:#fff;border-radius:99px;padding:5px 12px;font-size:.85rem;cursor:pointer}
 .chip.on{background:#0f1c2e;color:#fff;border-color:#0f1c2e}.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:14px;padding-bottom:30px}
@@ -63,7 +63,12 @@ def card(t):
             f'<p>{e(t["note"])}</p>{"<div class=meta style=margin-top:8px>★ Featured</div>" if t.get("featured") else ""}</div>')
 
 SUBCTA = f'<div class="cta"><b>Get the daily intel picture.</b> {e(BRIEF)} lands in your inbox every weekday morning — $12.50/mo or $107.50/yr. <a href="/subscribe/">Subscribe to The Early Bird™ →</a></div>'
-BANNER = f'<div class="banner">Top banner slot available: reach OSINT and security practitioners. <a href="/advertise/">Advertise here ($199/mo)</a></div>'
+_sb = getattr(config, "SPONSOR_BANNER", None) or {}
+if _sb.get("enabled") and _sb.get("image") and _sb.get("href"):
+    BANNER = (f'<div class="banner sponsor"><a href="{e(_sb["href"])}" target="_blank" rel="sponsored noopener">'
+              f'<img src="/{e(_sb["image"])}" width="1200" height="320" alt="{e(_sb.get("alt") or "Sponsor")}" loading="lazy"></a></div>')
+else:
+    BANNER = f'<div class="banner">Top banner slot available: reach OSINT and security practitioners. <a href="/advertise/">Advertise here ($199/mo)</a></div>'
 JS = """<script>(function(){var q=document.getElementById('q'),cs=document.querySelectorAll('.chip'),cards=document.querySelectorAll('.card'),c=document.getElementById('count'),cat='';
 function run(){var v=q.value.toLowerCase().trim(),n=0;cards.forEach(function(k){var ok=(!cat||k.dataset.cat===cat)&&(!v||v.split(/\\s+/).every(function(w){return k.dataset.s.indexOf(w)>-1}));k.style.display=ok?'':'none';if(ok)n++});c.textContent=n+' tools'}
 q.addEventListener('input',run);cs.forEach(function(b){b.onclick=function(){cs.forEach(function(x){x.classList.remove('on')});b.classList.add('on');cat=b.dataset.cat;run()}});
@@ -74,7 +79,12 @@ def write(path, content):
     os.makedirs(os.path.dirname(fp), exist_ok=True); open(fp, "w").write(content)
 
 shutil.rmtree(OUT, ignore_errors=True); os.makedirs(OUT)
-for _f in ("logo-64.png","logo-128.png","favicon.ico","apple-touch-icon.png","og.png","icon-512.png"): shutil.copy(os.path.join(os.path.dirname(os.path.abspath(__file__)),"assets",_f), os.path.join(OUT,_f))
+_assets = os.path.join(os.path.dirname(os.path.abspath(__file__)), "assets")
+for _f in ("logo-64.png","logo-128.png","favicon.ico","apple-touch-icon.png","og.png","icon-512.png"):
+    shutil.copy(os.path.join(_assets, _f), os.path.join(OUT, _f))
+_sb_img = (getattr(config, "SPONSOR_BANNER", None) or {}).get("image")
+if _sb_img and os.path.exists(os.path.join(_assets, _sb_img)):
+    shutil.copy(os.path.join(_assets, _sb_img), os.path.join(OUT, _sb_img))
 write("style.css", CSS)
 chips = '<button class="chip on" data-cat="">All</button>' + "".join(f'<button class="chip" data-cat="{e(c)}">{e(c)}</button>' for c in cats)
 home = (f'<section class="hero"><div class="w"><h1>The OSINT & Threat-Intel Tool Directory</h1><p>{len(tools)} vetted tools for open-source intelligence, threat intel, OPSEC and security training, each with a practitioner note.</p></div></section>'

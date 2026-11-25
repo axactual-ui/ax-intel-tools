@@ -206,3 +206,4 @@ GitHub Code Search|https://github.com/search|Recon & Footprinting|Free|Searching
 TruffleHog|https://github.com/trufflesecurity/trufflehog|Recon & Footprinting|Free|Finds leaked secrets and credentials in git repos and other sources.
 Gitleaks|https://github.com/gitleaks/gitleaks|Recon & Footprinting|Free|Scans repositories for hardcoded secrets.
 Lunar|https://lunarcyber.com/|Breach & Leak Data|Free|Free monitoring of compromised credentials, breach data, and leaked sessions tied to a verified company domain.
+Webz.io|https://webz.io/?utm_source=axi68.com&utm_medium=mailing_list&utm_campaign=axi68.com&utm_id=axi68|Dark Web|Paid|Dark web and deep web data feeds and API that return structured posts from Tor sites, forums, marketplaces and chat platforms for threat intelligence. Free monthly credits available.
