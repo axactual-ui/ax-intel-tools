@@ -14,6 +14,6 @@ SUB_MONTHLY_URL = "https://square.link/u/WIqYf0JK"  # Early Bird monthly $12.50/
 SPONSOR_BANNER = {
     "enabled": True,
     "image": "webz-banner-1200x320.png",
-    "href": "https://webz.io/?utm_source=axi68.com&utm_medium=mailing_list&utm_campaign=axi68.com&utm_id=axi68",
+    "href": "https://webz.io/products/self-service-dark-web-apis/",
     "alt": "Webz.io: Dark web Monitoring APIs",
 }
